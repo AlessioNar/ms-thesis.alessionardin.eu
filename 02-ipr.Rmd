@@ -1,0 +1,1377 @@
+Intellectual Property Rights 
+============================
+
+Intellectual property law is one of the main policy instruments used to
+guide the impact and direction of innovation efforts. Formally, its goal
+is to encourage innovation and creation of intellectual goods by
+facilitating the innovators' appropriation of the derived benefits.
+Following the rise in the rate of innovation that marked the 21st
+century, further enhanced by the digital revolution, IPRs have been
+increasingly contested by different stakeholders. IPRs incentivize or
+deter specific innovative behaviors, playing a fundamental normative
+function in determining the rate and trajectory of innovation efforts.
+
+First, I will present the foundations of IPRs, starting from the
+philosophical and economic justification for creating a property right
+in intangibles. Second, I will present some of the IPRs involved in
+Artificial Intelligence, focusing on the economics of patents and
+presenting the legal framework surrounding copyright and the database
+sui-generis right. Finally, I will examine whether the claims regarding
+the potential introduction of new IPRs to AI technologies are justified
+from an economic perspective.
+
+Foundations of Intellectual Property
+------------------------------------
+
+@spence2007intellectual defined intellectual property rights as a
+*\"right that can be treated as property to control particular uses of a
+specified type of intangible asset\"*, suggesting IPRs protection covers
+only specific kinds and uses of intangible assets. In other words, the
+property right does not directly involve the intangible asset but rather
+the right to exclude others to make specific uses of it.
+
+### Justifications for the existence of intellectual property rights
+
+A complete review of the philosophical and economic justifications of
+existence of IPRs would go well beyond the scope of this dissertation,
+thus I will focus on the three most common explanations: the natural
+rights argument, the desert argument, and the utilitarian argument,
+which has traditionally been the most influential in constructing a
+legal framework for IP [^1].
+
+#### The natural rights argument
+
+The natural rights argument, first expressed by John Locke in the Second
+Treatise of Government [-@locke1600treatise], is based on the assumption
+that people are naturally entitled to the fruits of their labor,
+including the fruits of their intelligence. He affirmed that: *\"The
+labour of his body and the work of his hands, we may say, are strictly
+his. So when he takes something from the state that nature has provided
+and left it in, he mixes his labour with it, thus joining to it
+something that is his own; and in that way he makes it his property\"*
+[@locke1600treatise]. However, this approach to IPRs cannot be
+considered valid on at least two different basis. First, it justifies
+control over the elements of an intangible asset for which a creator is
+responsible. However, intangible assets are very problematic because it
+is impossible to determine which assets the creator is genuinely
+accountable for. @nozick1974anarchy presented a counterargument by
+comparing newly produced knowledge to tomato sauce spilled in the ocean.
+If somebody owns the tomato sauce (the intellectual labor) and drops it
+into the sea (the entire global knowledge), is it right for him to claim
+the ocean as a whole as his? @locke1600treatise himself provided the
+second objection to the natural right argument. He assumed that this
+appropriation system could be applied only when appropriation does not
+leave anybody else worse off, which is not always the case. Even when a
+creator can claim a specific asset's origin, he is not necessarily
+entitled to control its use. Imposing a normative claim would preclude
+the user's autonomy and, therefore, make him worse off, invalidating the
+appropriation process.
+
+#### The desert argument
+
+Another commonly used justification of IPRs is that an intangible
+asset's creator deserves to benefit from his labor. This is generally
+referred to as the *desert argument*. On the other hand, this argument
+does not consider that property rights are not the only way to reward a
+creator. As @hettinger1989justifying points out, laborers may perform
+intellectual work only for the end of performing it, such as genuine
+interest in that field of knowledge, society's progress, ethical
+reasons, and so on so forth. In those cases, other possible rewards are
+recognition, gratitude, or public financial support to continue pursuing
+their work. IPRs are only one of several possible means to provide
+incentives to intellectual laborers, and exclusive property rights may
+impose an unnecessary cost to society.
+
+#### The utilitarian argument {#utilitarian}
+
+The utilitarian approach is the one that has historically prevailed, and
+most contemporary legal and economic arguments regarding IPRs are based
+on this paradigm. Unlike other arguments, the utilitarian approach in
+the past was supported by policy objectives and allegations such as
+*\"industrial progress is desirable, inventions is a necessary condition
+of industrial progress, not enough inventions will be made or used
+unless effective incentives are provided\"* [@machlup1950patent]. It is
+based on the economic theory of public goods [@samuelson1954pure]:
+rather than focus on the creator, its primary concern is the community
+as a whole, and it aims to improve the allocation of resources to
+maximize the benefits of society through the analysis of economic
+welfare.
+
+@greenhalgh2010innovation affirmed that *\"if a firm cannot charge all
+the beneficiaries of its innovation, then there is a problem of matching
+incentives to the value of the activity, which may lead to an
+undersupply of innovation.\"* In economics, this is commonly referred to
+as *market failure*. In the case of the allocation of benefits related
+to the production of knowledge, market failure may occur when knowledge
+is either described as a pure public good or as a private good with
+positive externalities.
+
+### The economics of intellectual property
+
+#### Knowledge as a public good
+
+According to @arrow1962economic and @stiglitz1999knowledge, free of any
+artificial construct, knowledge is both non-rivalrous and
+non-excludable, thus making it a public good. Public goods are those
+*\"which all enjoy in common in the sense that each individual's
+consumption of such a good leads to no subtractions from any other
+individual's consumption of that good\"* [@samuelson1954pure].
+
+A non-rival good in consumption means that the consumption of the good
+$x$ by an individual $A$ does not preclude the consumption of the same
+good of another individual $B$, thus making the marginal cost of
+consumption equals to zero. Common examples of public goods are
+sunlight, radio transmission, public roads, and national defense. Public
+goods are often defined in contrast to private goods, which are those
+goods $y$ whose consumption from an individual $A$ precludes the usage
+of another individual $B$, such as food, energy, or drinkable water. For
+example, an apple is a private good because if person $A$ eats it, it
+prevents the usage of person $B$. Conversely, sunlight is non-rivalrous
+because both $A$ and $B$ can enjoy it without precluding the other from
+consuming it. When treated as a public good, knowledge has often been
+assimilated with information [@archibugi2015knowledge]. When somebody
+consumes information, it does not reduce the quantity available to other
+individuals, making it non-rivalrous. While knowledge may be costly to
+produce, the marginal cost of sharing information with an additional
+individual is zero [@leveque2004economics]. For example, there is a zero
+cost of providing the notion of a mathematical theorem to an additional
+individual. However, as pointed out by @greenhalgh2010innovation, while
+the use of knowledge from one actor does not prevent other actors from
+using it, its diffusion may exhaust the profits that can be obtained
+from it[^2]. While information in itself is non-rival, the value
+associated with it can be rivalrous.
+
+The other fundamental characteristic of public goods is that they are
+non-excludable, which means it is challenging (if not impossible) to
+exclude a potential consumer from using them. Recalling the previous
+examples, while it is relatively straightforward for $A$ to prevent $B$
+from eating his apple, it is almost impossible for $A$ to prevent $B$
+from enjoying the sunlight.
+
+Several methods were used to prevent access to knowledge in the past:
+@archibugi2015knowledge list three of them: secrecy, access codes, and
+IPRs. The first method, secrecy, is widely diffused both in the military
+and business sectors. It relies on the underlying assumption that the
+best way to ensure the appropriability of the economic returns of
+knowledge is to prevent its diffusion. However, secrecy provides only
+partial protection. Practices such as headhunting, espionage, and
+reverse engineering can circumvent business and governmental agencies'
+security measures and undermine their efforts. Moreover, since secrecy
+guarantees appropriability by impeding information diffusion, it has the
+downside of hindering the possibility for third parties to engage in
+cumulative innovation and encourage the duplication of R&D expense,
+reducing the overall economic welfare. Access codes are instead
+technological tools that prevent the unwanted diffusion of knowledge.
+While they increase the difficulty of access, they do not provide total
+protection. A single breach in the defense systems of businesses and
+governmental agencies, coupled with the non-rival nature of knowledge,
+may idle their protective measures. Finally, IPRs are a family of legal
+instruments that, with specific limitations, allow their owner to
+exclude other individuals from enjoying the benefits of the knowledge
+they safeguard.
+
+When a good is both rival and excludable, it is generally considered a
+private good. In opposition, when it is both non-rival and
+non-excludable, it is usually considered a public good. However, there
+are also other dimensions, such as when products are non-rivalrous but
+excludable or when they are rivalrous but non-excludable. The former are
+generally referred to as club (or network) goods while the latter are
+referred to as common goods [@archibugi2015knowledge]. A typical example
+of a club good is on-line streaming services. While the consumption by
+one individual of streaming services such as Netflix or Disney+ does not
+prevent other individuals from enjoying them, they are potentially
+excludable by imposing a paywall that restricts access to those paying a
+monthly subscription. On the other hand, examples of common goods are
+ocean fisheries and forestry. While the consumption of fish in the ocean
+or wood in forests is rivalrous because excessive fishing or
+deforestation can deplete resources, it is challenging to restrict
+access.
+
+::: {#information}
+                      Rivalrous     Non-rivalrous
+  ---------------- --------------- ---------------
+     Excludable     Private goods    Club goods
+   Non-excludable   Common goods    Public goods
+
+  : Different types of goods
+:::
+
+#### Knowledge as a private good with positive externalities
+
+Opposed to @arrow1962economic and @stiglitz1999knowledge, modern
+economics of science and innovation considers in his analysis the highly
+differentiated forms of knowledge. This perspective rejects the
+comparison between information and knowledge [@pavitt1987nature]
+because, depending on the specific traits of the knowledge transferred,
+the consumer may experience high transaction costs, undermining the
+assumption that all knowledge can be considered a public good.
+@callon1994science distinguishes between freely available knowledge and
+knowledge that can be used without incurring costs underlined that,
+except for few specific cases (such as consuming a drug or using a
+computer program with an already known interface), the acquisition of
+knowledge requires additional efforts from the consumer (such as
+learning time or other resources). Later, @stiglitz1999knowledge
+dismissed this aspect, affirming that @arrow1962economic's definition of
+public goods does not consider the consumer perspective but only the
+producer's. However, if we include in the definition of public goods
+also the transaction costs bore by the consumers, knowledge may be
+considered either a public or a private good based on the specific kind
+of knowledge we examine. As formulated by @archibugi2015knowledge,
+*\"what makes knowledge different from public goods is not the related
+production process, rather its process of diffusion, which has been
+scarcely addressed in standard economic theory.\"*
+
+The heterogeneous dimension of knowledge may influence the positioning
+of knowledge as a private or public good [@nelson1959simple]. While
+basic research can be assimilated to a public good because it is
+possible to apply it in many different areas, knowledge regarding
+innovation in a product or a process directly applicable in the market
+can be assimilated to a private good with positive externalities
+[@greenhalgh2010innovation]. Positive externalities arise when a
+producer's behaviors enhance other firms' profits, leading to a
+misallocation of benefits.
+
+The traditional economic argument in favor of IPRs is that, without a
+mechanism of appropriation for intellectual work, sometimes creators
+will not have any incentive to innovate and produce knowledge,
+potentially leading to its sub-optimal provision. @coase1960problem
+suggested that this could be solved by introducing clear and defined
+property rights. Positive externalities could be compensated by
+requiring a fee from the beneficiaries, and negative externalities could
+be offset by charging a tax to the responsible. In the absence of
+appropriate incentives for innovation, then IPRs represents a way to
+ensure the appropriability of the benefits raised by the innovation
+process.
+
+### The traditional economic model for IPRs introduction {#general_incentive}
+
+Imagine a perfectly competitive market composed of a large number of
+firms that produce a standardized product. The price $P_{0}$ is equal to
+the marginal cost of production ($P_{0} = MC_{0}$). In perfect
+competition, economic welfare is entirely comprised of consumer surplus,
+while producer surplus is equal to zero. When a process innovation is
+introduced, it reduces the marginal cost of production from $MC_{0}$ to
+$MC_{1}$. If we consider knowledge as a non-excludable good, and the
+innovation can immediately be applied to the production process by all
+firms in the market, the increase in economic welfare involves only
+consumer surplus. In contrast, producer surplus remains equal to zero.
+
+This may lead to the conclusion that, in the absence of an
+appropriability mechanism, producers have no economic incentive for
+innovation. The introduction of temporary monopolistic rights over the
+produced knowledge (such as IPRs), when assigned to innovators, aims to
+provide this economic incentive.
+
+If we add IPRs to the model, its owner is the only individual that can
+benefit from the cost reduction created by innovation, either through
+direct application in the production process or by licensing it to other
+firms. Therefore, during the protected period, the price will remain
+$P_{0}$, while the marginal cost of production for the innovator will
+decrease from $MC_{0}$ to $MC_{1}$. The consumer surplus will remain
+stable, and the innovating firm will enjoy a profit equal to
+$(P_{0}-P_{1})Q_{0}$. However, the market will also experience a
+deadweight loss equal to
+
+$$DW = \frac{(P_0 - P_1)(Q_1 - Q_0)}{2}$$
+
+where $Q_1$ is the quantity of the good that would have been produced
+without IPRs. While the economic welfare is higher than in the scenario
+without the process innovation, it is still lower than without IPRs,
+meaning that it is not Pareto efficient. However, after protection
+expires, the producer surplus is zeroed, and consumer surplus is
+maximized, leading to Pareto efficiency.
+
+![Before the innovation](images/chap2/simplemodel1.png){#fig:1
+width="\\textwidth"}
+
+![After the innovation](images/chap2/simplemodel2.png){#fig:2
+width="\\textwidth"}
+
+![Economic welfare after the introduction of
+IPRs](images/chap2/simplemodel3.png){#fig:simplemodel3 width="7cm"}
+
+Assuming that, in the absence of IPRs, no innovation would have taken
+place, while no protection mechanism provides static efficiency, IPRs
+encourage the system's dynamic efficiency. The economics of IPRs aims to
+balance the dynamic efficiency of continuous innovation and the static
+efficiency given by the absence of IPRs.
+
+### IPRs in an oligopolistic market {#oligopolistic}
+
+The trade-off between static and dynamic efficiency is sometimes solved
+using competition economics. However, given that dynamic efficiency is
+impossible to measure with a satisfactory degree of precision
+[@drexl2010research], many economists of the neo-Schumpeterian school
+favor caution in applying competition law to IPRs' design, referring to
+Schumpeter's argument of *creative destruction*. According to
+Schumpeter, capitalism is an evolutionary process that is driven by
+*\"new consumers' goods, the new methods of production or
+transportation, the new markets, the new forms of industrial
+organization that capitalist enterprise creates\"*
+[@schumpeter1942capitalism].
+
+@schumpeter1942capitalism affirms that it would be a mistake to evaluate
+oligopolistic structures without considering the evolutionary dimensions
+of the capitalist process. In particular, he identified innovation as a
+constant source of competition, explaining how even established
+oligopolies can be disrupted and countered by new forms of organization
+and technological revolutions. Additionally, @schumpeter1942capitalism
+examined the relations between IPRs and competition, affirming that
+competition policy should consider the positive effects of temporary
+monopolies to drive innovation and the creative destruction process
+activated by new technologies. He does not deny that, in some cases,
+competition policies are necessary to dismantle cartels that are
+effectively damaging the system but that drafting precise and effective
+policies is very difficult and should be done only on a case-by-case
+basis.
+
+Economists advocating for neo-Schumpeterian approaches base their claims
+on the argument that monopoly power is necessary to enhance innovation
+and dynamic efficiency because monopolies' profit is needed for
+investments in future innovation [@drexl2010research]. So, even when IP
+confers monopoly power, the latter should be protected against state
+intervention because doing otherwise would reduce the innovation
+system's effectiveness. Competition policy should not collide with the
+allocation of IP rights because the long term effects of these
+interventions are challenging to quantify, and on a theoretical basis,
+it is never recommended to interfere with the distribution of the
+benefits of IPRs. *\"When considering whether forcing the disclosure of
+companies' trade secrets or compelling them to license valuable IP,
+policymakers must therefore balance the gains from stimulating
+short-term competition with the losses from the reduced investment in
+innovation. They should keep in mind, however, that while the allocative
+efficiencies that arise in the short term as a result of intervention
+are relatively easy to measure, the long-term costs of such actions are
+uncertain and difficult to quantify.\"* [@geradin2006dg] A
+counterargument to the neo-Schumpeterian approach was already pointed
+out by @arrow1962economic, which framed the applicability of
+@schumpeter1934theory's line of reasoning in terms of incentives to
+innovate. In an oligopolistic market, a firm is already making a profit,
+and innovation only offers a higher revenue. However, when compared to a
+second firm contemplating market entry, the incumbent's marginal
+gain[^3] is lower than the one of the potential entrant. This argument
+leads to the conclusion that an oligopolistic system, in the absence of
+new entrants, is less conductive to innovation. However, as pointed out
+by @leveque2004economics, *\"this reasoning ignores competition between
+companies to conquer markets. The incentives are different if the
+monopoly knows that a competitor can enter its market by inventing and
+patenting a less expensive process or a similar new product.\"* When
+firms compete for conquering a market, a race towards innovation is very
+likely to happen. Competition in the market is then replaced by
+competition for the market [@geradin2006dg]. If the incumbent fails, it
+will lose the profit provided by the monopoly and the R&D investments,
+while if the entrant misses the window, it will only suffer the loss of
+the development costs. In this case, the monopolist has a higher
+incentive to innovate, even if it will never introduce into the market
+the innovative product.
+
+Summing up, competition law is a useful instrument to leave access to a
+market open by forcing oligopolies and new entrants to compete with each
+other and, coupled with compulsory licenses, promotes the diffusion of
+knowledge in the market. Simultaneously, even if IPRs create static
+inefficiencies due to their monopolistic nature, in many cases they
+maintain the incentives for the production of innovation high, promoting
+dynamic efficiency, and discouraging the sub-optimal provision of
+innovation. However, such cases are not as frequent as one may think and
+that must be carefully evaluated on a case-by-case basis. As it was
+already mentioned, other incentives, economic or not, may already be in
+place. IPRs can alter these fragile dynamics, potentially hindering
+innovation, as it is claimed by @Brggemann2015IntellectualPR in the case
+of sequential innovation.
+
+Three IPRs involving AI technologies: patents, copyright, and database
+----------------------------------------------------------------------
+
+An in-depth analysis of the legal and economic features of all of them
+would go beyond the scope of this dissertation, thus I will focus on the
+main IPRs concerning AI technologies: patents, copyright, and the
+database sui-generis right.
+
+### Patents
+
+#### Legal overview
+
+Patents are a legal instrument that allows the patent owner to establish
+a temporary monopoly over particular uses of a patented invention.
+According to @guellec2007economics, a patent confers on its owner the
+exclusive right to prevent third parties to make, use, offer for sale,
+sell or import a patented product or the product resulting from a
+patented process. Patents only offer protection on a national level,
+requiring the patentees to individually seek protection in each of the
+countries where one desires to protect the intangible asset. To minimize
+legal fragmentation and reduce transaction costs, patent legislation has
+progressively harmonized at a global scale by several international
+treaties [@charnovitz1998patent].
+
+In 1883 the Paris Convention for the Protection of Industrial Property
+was signed. It introduced two main provisions: national treatment and
+the right of priority. National treatment is a standard principle in
+international law that consists of providing to foreigners the same
+rights that it grants to its citizens, in our case, the ones concerning
+industrial property protection. The right of priority consists of
+conceding to the first applicant of a patent the exclusive right to
+extend it to other countries for twelve months. Before the Paris
+Convention, to ensure protection over his invention, the applicant had
+to file a patent in all states at the same time, creating several
+logistical issues [@world2004wipo].
+
+The second significant development in the international harmonization of
+patent systems was the implementation of the Patent Cooperation Treaty
+(PCT), signed in 1970 and entered into force in 1978, which created an
+international procedure for patent application. While the examination
+and grant of a patent remained a responsibility of the national offices,
+the PCT allowed inventors to file a single application stating a list of
+countries where he/she desired to obtain protection, and it provided
+additional 18 months of priority.
+
+In 1994, the signature of the Trade-Related Intellectual Property
+Agreements (TRIPs) introduced the most favored nation principle, a
+standard duration of patents, a standard definition of patentable
+subject matter, compulsory licensing, and extended patent protection to
+test data in agricultural and pharmaceutical products
+[@park2008international]. The TRIPs agreement represent the last
+development in international patent legislation and determine the
+minimum requirements for patenting. Article 27(1) of Annex 1C recites
+that: *\"patents shall be available for any inventions, whether products
+or processes, in all fields of technology, provided that they are new,
+involve an inventive step and are capable of industrial application.\"*
+Additionally, all jurisdictions exclude from patenting artistic
+creations, scientific discoveries, mental acts, abstract ideas, animal
+and vegetal varieties, methods for medical treatment, and medical
+diagnosis. To this day, the patentability of business methods, software,
+and biotechnological products depends on the specific provision of
+national legislation. While in the US it is possible to patent business
+methods and software, in most European countries it is not
+[@wells2001internet].
+
+##### Industrial application
+
+The *industrial applicability* criterion has been introduced to
+guarantee the practical utility of granting monopoly rights to the
+inventor. In this case, *industry* should be interpreted broadly, with
+the meaning that the invention must be applicable for practical purposes
+[@world2004wipo]. The economic rationale is to prevent the patenting of
+basic upstream applications that could slow down the development of
+commercially viable downstream applications, potentially reducing the
+net social benefit of society [@guellec2007economics].
+
+##### Novelty
+
+Novelty is an unquestionable requirement for patenting: an invention is
+new when the prior art has not anticipated it. *Prior art* is defined as
+*\"all the knowledge that existed prior to the relevant filing or
+priority date of a patent application, whether it existed by way of
+written or oral disclosure\"* [@world2004wipo]. The economic rationale
+at the basis of novelty is at the core of the utilitarian justification
+for IPRs. Since the introduction of an excludability mechanism involves
+a decrease in the static efficiency of the system to promote dynamic
+efficiency an innovation, there would be no reason to grant temporary
+monopoly rights for an invention that has already taken place
+[@guellec2007economics].
+
+##### Inventive step
+
+A third criterion shall be respected: inventive step[^4]. According to
+Art. 56 of the European Patent Convention, *\"an invention shall be
+considered as involving an inventive step if, having regard to the state
+of the art, it is not obvious to a person skilled in the art.\"* Given
+that an invention has industrial applicability and it is novel, why then
+require an inventive step? Again, the norm is based on economic
+considerations [@guellec2007economics]:
+
+-   **promote competition:** small and incremental innovation is part of
+    the routine of many industries. Allowing a firm to patent a marginal
+    improvement on a product or a process would prevent the competing
+    businesses to innovate and would increase the probability of the
+    development of permanent monopolies, hurting market competition;
+
+-   **reduce uncertainty:** requiring a low inventive step increases the
+    risk of granting patents that are not novel, increasing the
+    probability of raising society's costs without any benefit in the
+    long-term. A high inventive step overcomes this issue and
+    incentivizes radical innovation over marginal improvement;
+
+-   **ensure sufficient protection to inventors:** an inventive step
+    which is too low reduces inventors' incentives because marginal
+    improvements could immediately overtake any invention, dissolving
+    the economic reward.
+
+These three economic rationales have been included in models by
+@o1998patentability and @hunt2004patentability, who analyzed the impact
+of the size of the inventive step on innovation. According to their
+findings, a low inventive step reduces the lifetime of patents since
+patented marginal improvements would overtake them without risking of
+infringing them and incentivize investments in small, low-cost, marginal
+inventions while discouraging large and high-cost ones. On the other
+hand, a high inventive step increases the length of monopoly and the
+economic profits for a patented invention, while discouraging marginal
+improvements. @guellec2007economics argue that determining the optimal
+length of the inventive step is not trivial and largely depends on the
+technological field of the innovation. They affirm that small inventions
+are valuable for customers and that since, in many cases, significant
+innovations are the product of marginal improvements, preventing
+patentability would incentivize secrecy and reduce economic welfare.
+
+#### Economic rationale and optimal patent design
+
+Adopting an economic approach to patents allows us to evaluate IPRs from
+an efficiency-based perspective, where their introduction is justified
+only if they encourage innovation and the diffusion of technology while
+minimizing the deadweight loss associated with the temporary
+introduction of monopoly rights [@langinier2002economics]. The net
+social benefit of an innovation is positive when the welfare it brings
+to society exceeds the cost required for its production. On the other
+hand, the net individual benefit of an innovation is positive when the
+innovator's returns are higher than the R&D cost he incurred during
+production. The underlying economic logic behind the patent system is to
+find a way to ensure that, when the net social benefit is $\geq0$ and
+the net individual benefit is $\leq 0$, the innovation is produced
+anyway. Only when the trade-off between the net social benefit and the
+individual benefit is positive, a patent should be granted
+[@leveque2004economics]. Providing a temporary monopoly right over the
+benefits of the invention was the historically chosen solution to this
+issue.
+
+Many patent advocates affirm that, by ensuring high profits for the
+inventor, the disclosure of knowledge that would otherwise have remained
+secret and the creation of a market of tradeable assets would be
+encouraged, thus leading to the optimal allocation of productive
+resources [@guellec2007economics]. Unfortunately, this is rarely the
+case. The introduction of a patent involves two possible scenarios: the
+invention would have taken place even without the incentive provided by
+a temporary monopolistic right, or it would not. In the first case, from
+an economic perspective, the patent system should be structured in such
+a way that it is not possible to patent the innovation. However,
+determining that would require to evaluate factors such as the R&D costs
+of the invention, the risk of the research, the existence of alternative
+appropriability mechanisms for its returns, and the possibility of
+obtaining it through publicly-sponsored research. Generalizing, only if
+the invention is costly, risky, there is no other way of protecting it,
+and it is outside the interest of government-funded research, a patent
+should be introduced. Unfortunately, this identification process is
+costly, complex and largely depends on information that may be known
+only to the patent applicant, that has no interest in sharing it with
+patenting authorities, since it may result with having its patent
+application rejected.
+
+Patents are an exclusionary tool that can potentially hinder innovation,
+thus betraying their original purpose: when a general-purpose invention
+is patented, it provides the holder with a strong market power that
+could prevent diffusion, follow-up research, and increasing the
+deadweight loss [@o1998patentability]. This was the case of the patent
+granted to George Selden in 1895 for the invention of the automobile
+[@howells2016overly]. Selden's application included the combination of
+an internal combustion engine in a 4-wheeled car. Selden's claim was
+very general and did not specify critical details regarding the engine.
+In 1899 he teamed-up with William Whitney and started collecting
+royalties from other automobile manufacturers up until Henry Ford and
+other four car makers challenged the patent in 1904. In 1911, Selden's
+patent was declared invalid by the appeal court. @merges2009trouble
+suggests that Selden's rent-seeking behavior may have prevented access
+to the automobile market to small firms, discouraging follow-up
+research, and potentially impeding innovation. Another famous patent
+that arguably impeded innovation was the one granted to the Wright
+brothers, who made a modest improvement to flight technology and secured
+a patent in 1906. Later they engaged in a fierce legal battle to
+monopolize the US airplane industry, imposing prohibitive fees for
+economic gain [@boldrin2013case] and effectively hindering follow-up
+innovation. When the US entered World War I, the US military did not
+have a competitive airplane industry, and the lawsuit was only solved
+through political channels by effectively absorbing the Wright patent in
+a patent pool composed by the other airplane producers
+[@shulman2003unlocking]. On the other hand, the establishment of clear
+property rights facilitates the commercialization of the invention,
+ensuring the appropriability of returns [@coase1960problem]. Many
+research institutes do not have the infrastructures needed to reach
+downstream users, and IPRs ease the transfer of these assets to industry
+actors through a license [@guellec2007economics].
+
+Moreover, in the absence of a patent system, disclosure rely on the
+willingness of the original inventor and the nature of the invention.
+While for product innovations there may be other systems of
+appropriability of the economic returns such as first-mover advantages
+or scale economies, in process innovations the most common alternative
+to patenting is secrecy. Therefore, in some cases, patents may favor the
+disclosure of process innovations and reduce the risk of the
+multiplication of R&D efforts [@archibugi2015knowledge].
+
+*\"Applying this series of tests to individual patent applications or to
+entire categories (e.g. technical fields) would make the patent system
+of high quality from an economic point of view\"*
+[@guellec2007economics]. Unfortunately, applying these criteria to
+patent applications is not straightforward. Sometimes disclosure and
+exclusivity are in contrast with each other since greater exposure would
+facilitate competing firms to *\"invent around\"* the patent, thus
+reducing the returns of the innovative firm. In other cases, the
+information required to evaluate the impact of an innovation is known
+only after years of market introduction or it is not measurable at all.
+Additionally, the design of an optimal patent system requires greater
+coordination with the authorities in charge of innovation policies and
+competition, well beyond the reach of patent offices. Evaluating the
+grant of a patent on a case-by-case basis would increase the application
+cost, and it would reduce legal certainty, raising the risks associated
+with unwanted infringement or of having the patent revoked
+[@guellec2007economics]. Since firms' investments in R&D are made
+depending on the probability of covering costs and appropriating the
+returns for profit, increased uncertainty in the evaluation process has
+negative effects on both competition and investment, amplifying business
+risk and raising the costs of innovation. Some institutions even
+explicitly exclude the use of economic considerations for patent
+evaluation, such as the European Patent Office. *\"The EPO has not been
+vested with the task of taking into account the economic effects of the
+grant of patents in specific areas of technology and of restricting the
+field of patentable subject matter accordingly\"*
+[@economiceffectpatentability].
+
+##### Patent breadth {#breadth}
+
+Patent breadth (or scope) measures the use that the innovator can make
+of the patent compared to his competitors [@leveque2004economics]. It is
+not determined by law but results from the combination of the number and
+genericity of novelty claims and the inventive step. Patent offices
+identify what an inventor has found or not based on the claims present
+in the patent application but the definitive scope is determined in
+court during a case of alleged infringement[^5].
+
+According to economic theory, the scope of a patent can be divided into
+*lagging breadth* and *leading breadth*. Lagging breadth affects
+horizontal competition, determining how far competitors should position
+their products in order not to infringe. @klemperer1990broad frames it
+as the maximal degree of substitutability between the patented invention
+and a competing one while @tandon1982optimal defines it as the cost of
+inventing a substitutable product. In both scenarios, the competing
+products do not infringe on the patent, and the lagging breadth
+determines how much competition its owner will face. Taking
+@klemperer1990broad's perspective, a broader scope decreases the
+substitutability degree of competing products, giving the patent owner
+higher market power, while taking @tandon1982optimal's one, it results
+in a higher entry barrier to the market and, therefore, weaker
+competition. Conversely, leading breadth affects vertical competition,
+which is the length of the inventive step needed in downstream research
+in order not to infringe the patent. It generally arises in the context
+of cumulative innovation [@guellec2007economics], where an invention is
+needed for another one to happen [^6]. In a two-stages development
+scenario, where two different research entities contribute to innovation
+and the revenue is generated in the downstream sector, leading breadth
+determines how the profit be shared between them. *\"Granting too narrow
+a patent at one stage will reduce the negotiating power of the inventors
+at that stage as opposed to the inventors of the other stage, lowering
+their reward and, therefore, their incentive to invent in the first
+place, possibly blocking the innovative chain. Conversely, too broad a
+patent might lead inventors to require too high a share of the total
+reward, at the expense of other inventors, who might then choose to keep
+out, also breaking the chain\"* [@guellec2007economics].
+
+Summing up, an increased lagging breadth reduces the possibility of
+competitors entering the market and offering similar products, while a
+higher leading breadth makes it more difficult for competing innovators
+to patent marginal innovations based on the first patent
+[@scotchmer2004innovation]. Balancing out leading and lagging breadth is
+not trivial and economists suggest three main approaches.
+
+The first approach advocates for the creation of deep patents that cover
+all innovations that follow an initial discovery. @kitch1977nature
+proposes that deep patents allow the inventor to organize research
+efficiently, discouraging patent races and excessive investments. Other
+firms can then identify new applications and propose them to the patent
+owner and request a license or offering research partnerships as they
+would represent a new flow of revenue. However, these arguments are
+highly controversial. High uncertainty and asymmetrical knowledge may
+increase the complexity of the negotiations (and therefore transaction
+costs), since no party may be willing to share valuable information
+regarding the specifics of their invention for fear of imitation. Broad
+upstream patents may affect the early disclosure of fundamental
+innovations, incentivizing secrecy and preventing other researchers from
+investigating other applications of the invention [@matutes1996optimal].
+These rent-seeking behaviors may lead to patent races: firms may compete
+to be the first one to breakthrough and appropriate the totality of the
+revenues of the invention. Additionally, in many fields of research, the
+issue is not over-investment, rather under-investment. Even if the
+problem were over-investment, promoting broad upstream patents would not
+solve it but rather move it from the downstream to the upstream stage,
+reducing the profitability of downstream research and therefore risking
+an under-provision in that sector.
+
+A second approach has been taken in the field of software. While
+computer programs *as such* are excluded from patenting[^7], it is still
+possible to patent software applications which use a mathematical
+formula in a specific way for a particular purpose. This resulted in the
+incentivization of extremely narrow patents, which constitute prior art
+[@neuhausler2019computer], incentivizing sequential innovation.
+
+The third approach involves not applying intellectual property at all
+when innovations are cumulative, imposing the same non-patentability
+conditions as a requirement for licensing. Innovators directly compete
+with each other in the market, having a lower incentive to invest in R&D
+but having the possibility to draw from all existing innovations,
+reducing the costs derived from licenses, and eliminating the risks
+associated with possible infringement [@bessen2009sequential]. This is
+another common approach used in the software industry, promoted by the
+open-source movement. In copyright legislation it is referred to as
+copyleft, while in patent legislation is referred to as patentleft
+[@dusollier2007sharing].
+
+##### Patent duration {#duration}
+
+TRIPs agreements fixed the maximum duration of a patent at 20 years from
+filing, making it almost uniform all over the world. Limiting the
+temporal length of protection is the easiest way for legislators to
+control the monopoly rights given to innovators. A longer duration would
+grant additional profits to innovators, and therefore it would increase
+their economic incentives. On the other hand, from an economic
+perspective, protection should be eliminated as soon as the innovator as
+received a reward equals to the profit it would have obtained if he
+invested the same amount of resources elsewhere, such as in bank
+deposit. In this framework, the discount rate is the first limit on the
+efficiency of long patents: the more distant in time the expected profit
+from the innovation, the less able it is to compete with the cumulative
+interest that a bank account would generate [@scotchmer2004innovation].
+Another reason for limiting the duration of patent protection are
+transaction costs [@langinier2002economics]. Among time, subsequent
+inventions dilute the contributions to the technology provided by each
+inventor, and establishing the participation of an inventor to the new
+knowledge becomes more and more expensive as technology evolves
+[@leveque2004economics].
+
+Having determined that limited duration is essential for patents, how
+long should protection last? In other words, how is it possible to
+balance out the dynamic efficiency of a patent? @nordhaus1969economic
+developed a model to determine optimal duration that minimizes the
+discounted value of the deadweight loss generated by the patent over its
+entire life under the constraint that the discounted profit of the
+innovator exceeds his R&D expenses. He affirms that duration and the
+scope of patents should depend on the particular characteristics of the
+reference market since different products and processes may have
+different optimal extents of protection. Thus the optimal solution would
+be to grant different protection lengths to innovations in different
+sectors, based on the cost of the invention and the shape of the
+deadweight loss as a function of price and time. Unfortunately, the
+current patent system establishes a standard maximum length to all
+patents, even if the R&D expenses greatly vary between different
+sectors. While there is a renewal system based on fees [@de2013role], in
+which, periodically, firms can choose to extend the duration of
+protection, the deadweight loss imposed by a patent may still be higher
+than the benefit to society. The profits derived from a patent may be
+higher than the renewal fees even after the complete recovery of the R&D
+costs, thus blocking the diffusion of socially valuable inventions and
+encourage rent-seeking behavior, undermining the efficiency of the
+system.
+
+To determine the optimal patent design, different combinations of length
+and scope can be used. The same economic reward could be obtained by
+either increasing the scope or the length of protection. Different
+approaches have been taken to strike a balance, notably by
+@tandon1982optimal, @gilbert1990optimal, and @gallini1992patent.
+According to @tandon1982optimal and @gilbert1990optimal, the optimal
+combination of duration and scope largely depends on the elasticity of
+demand, which influences the impact of price on the deadweight loss.
+Patent protection is framed as the power it confers on the market.
+Following this understanding, a broad patent reinforces the monopoly of
+the innovator by excluding from the market products that are substitutes
+for it but that are substantially different. So, if the product
+elasticity is high, deadweight loss increases faster with breadth than
+with length, leading to the conclusion that narrow and long patents are
+preferable. Conversely, when the product is highly inelastic, deadweight
+loss increases faster with duration than with breadth, making short and
+broad patents more desirable. A different approach was taken by
+@gallini1992patent, which instead took into consideration the effect of
+patent breadth on competition. She defined breadth as the R&D costs of
+imitation of an innovation without infringing its patent. Patents are
+framed as the conditions under which the innovator shares the market.
+*\"The longer the patent, the more incentive imitators have to invest in
+the creation of alternative technologies. By contrast, a broad patent
+makes it costly for imitators to enter the market. In other words, a
+long patent attracts imitators by giving them the time to recover the
+cost of their imitation, whereas a broad patent dissuades imitators by
+increasing the cost of imitation.\"* [@gallini1992patent] However, the
+R&D expenditure undertaken by imitators is wasted because the patent
+technology has already been developed. Because of these considerations,
+she concluded that short and broad patents are preferable because it is
+better to have a strong monopoly for a short period than an oligopoly
+for a longer period coupled with worthless imitation costs.
+
+### Copyright
+
+Copyright is a legal instrument used to protect *\"any literary,
+dramatic, musical or artistic original work, provided that is recorded,
+either in writing or otherwise\"* against imitation
+[@spence2007intellectual]. Contrary to patents, it only protects against
+the exact reproduction of the work and not independent creation.
+Copyright gives authors an exclusive right over the reproduction,
+performance, adaptation, and translation of their work. The criteria
+used to determine whether an intangible asset can be subject to
+copyright protection are very inclusive. Work is defined as any quantity
+of material assembled with some conscious ordering. There is no judgment
+of quality or contents in the definition of literary: originality does
+not require any inventive step, only an intellectual effort of some kind
+[@spence2007intellectual]. Additionally, copyright legislation also
+covers a range of related rights, which are rights of creative works not
+connected with the works' authors. They include the rights of
+performers, phonogram producers, broadcasting organizations, and, within
+the European Union, the rights of film producers, database creators,
+semiconductors, and industrial design. Provided these general
+requirements, it is clear how the subject matter of copyright protection
+is extensive. It encompasses many industries, such as visual arts,
+publishing, performing arts, and, since the digital revolution, digital
+products such as software code and databases.
+
+Civil law and common law regimes adopts two different approaches. In
+common-law copyright is understood solely as a set of economic rights
+that aim to guarantee the economic appropriability of the production of
+knowledge. They include the exclusive right for the reproduction,
+distribution, renting, lending, public performance, and making
+adaptations of the work, such as translating or dramatizing a literary
+work and transcribing or producing an altered version of a musical work
+[@spence2007intellectual]. On the contrary, in civil law regimes, other
+rights (commonly referred to as moral rights) such as paternity, false
+attribution, and integrity, are associated with the economic rights. The
+distinction between common law and civil law approaches to copyright is
+reflected even in terminology. While in the US and former Commonwealth
+countries, the legal term to define these IPRs is copyright, in civil
+law countries, more emphasis is put on the author figure, and therefore
+they are referred to as author's rights (generally using the French term
+*droits d'auteur*).
+
+Differently from patents, that have a registration system that requires
+the filing of an application to obtain protection, copyright does not
+have a registration system. Protection is granted since the act of
+creation of the work, and it is automatically awarded to the author
+[@spence2007intellectual]. However, sometimes the identification of the
+author is not so trivial as one may expect. According to
+@versteeg1995defining, an author is an individual who has actively
+created something copyrightable, as the writer, the photographer, or the
+composer.
+
+From a historical perspective, the author is a legal figure born in XVII
+century England, in the context of the dispute Donaldson v. Becket.
+Donaldson was a Scottish bookseller whose business model consisted of
+reprinting classics of English literature. When he published James
+Thomson's book *\"The Seasons,\"* Becket and a group of London
+booksellers sued him for infringement, since they allegedly claimed they
+detained the copyright [@rose1988author]. At the time, copyright in the
+United Kingdom was protected by the Statute of Anne (1709), which
+granted limited protection of fourteen years to books with a possible
+second term if the author was still living. The Statute was based on the
+Stationers' Company regulations, a publishers' association that
+regulated the printing of books in London. It introduced a temporal
+limit of protection and the possibility for authors to become copyright
+holders, effectively giving birth to the author as a legal figure. In
+England, copyright was a right created for publishers, responsible for
+the diffusion of literary works. While at the dawn of copyright
+legislation it was relatively easy to determine the author of a work,
+with the progressive expansion of copyright subject matter and
+complexity, it has become increasingly challenging to assign
+attribution. In the past, business models such as work-for-hire and
+technological innovations such as film-making questioned the traditional
+association of property rights with authorship, leading to the creation
+of models of attribution tailored to the specific issues. Today,
+AI-created works are putting these models again to the test.
+
+#### Length
+
+Copyright protection starts from the moment the work is created, and it
+proceeds until some time period after the author's death. The ratio of
+this provision is to allow the author's successors to benefit
+economically from the author's work. In some legislation, moral rights
+continue in perpetuity. In the Berne Convention, the minimum duration of
+copyright protection is fixed at 50 years after the death of the author.
+However, more and more countries are extending the length of protection
+to 70 years, to harmonize with US and EU IP regimes. In some cases,
+specific categories of works (such as anonymous, cinematographic, and
+posthumous works) are awarded a different length of protection to
+minimize the deadweight loss to society. When copyright protection
+expires, works enter into the public domain and are freely accessible by
+everyone.
+
+International copyright legislation is highly fragmented, and it is
+currently formed by an interlocking system of treaties formed by the
+Berne Convention for the Protection of Literary and Artistic Works of
+1886, the Universal Copyright Conventions of 1952 and 1971 and the WIPO
+Copyright treaty of 1996. Additionally, neighboring rights are regulated
+by ad-hoc treaties such as the Rome, Geneva, and Brussels Conventions
+and the WIPO Performances and Phonograms Treaty. In 1994, the adoption
+of the TRIPs agreement contributed to the harmonization of international
+copyright law, but the global legal framework is still disjointed. Some
+countries have adopted all the latest multilateral treaties, while
+others abode only the minimum standard required by previous agreements
+[@goldstein2001international].
+
+Compared to patents, which in almost all legislation have a standard
+limit of protection of 20 years from filing, copyright has an unusually
+long term of protection. The economic rationale is that the success of a
+work is highly uncertain, and it can come many years after the first
+edition. So, a long span of protection represents an additional
+guarantee for the author to obtain the profit from his work, even if it
+is delayed in time [@landes2003indefinitely; @diderot1767lettre]. In
+this way, the creator's lower profit in each period is compensated by a
+higher number of periods, to enable him to recover his cost and provide
+him with sufficient incentive [@landes2003indefinitely]. On the other
+hand, the unusual length of copyright protection may have also arisen
+from the intense lobbying of interest groups in the show business
+industry. Initially set at 14 years, copyright in the US has been
+gradually extended to the current 70 years after the author's death.
+While this unusual length may be partly justified in the context of
+literary works, with the expansion of the scope of copyright to works
+that are technology themselves, or essential inputs for the production
+process, such as software or databases, 70 years after the author's
+death greatly increase the deadweight loss, suggesting that a revision
+may be needed for specific products.
+
+#### Scope
+
+Copyright protects the exact reproduction of the author's works and not
+the act of using the ideas expressed, considered the building blocks of
+knowledge and fundamental for transmission. Word strings and music are
+protected, as other ordered strings of symbols such as software, but not
+algorithms. In the US legislation, the dichotomy between ideas and
+expression is solved by the doctrine of *\"comprehensive nonliteral
+similarity,\"* [@mohler1999toward] where the line between infringement
+and autonomous creation lies on the evaluation of mechanical changes are
+made, such as changing the names of the characters in a short story or
+renaming the variables in software.
+
+Copyright protection is also subjected to several limitations. First of
+all, some categories of work might not be protected at all.
+International legislation requires that a work is fixed in a tangible
+form, and therefore non-registered works fall out of copyright
+protection. Additionally, some legislation explicitly exclude from
+protection works such as laws, court sentences, and administrative
+decisions [@goldstein2001international]. Second, some forms of
+exploitation of a work that theoretically would require a license may be
+carried out without explicit permission. Article 9, par 2 of the Berne
+Convention affirms that reproduction rights may be granted, *\"in
+certain special cases, provided that such reproduction does not conflict
+with a normal exploitation of the work and does not unreasonably
+prejudice the legitimate interests of the author\"*. Third, it is
+possible to grant compulsory licenses regarding certain individual
+cases, such as the mechanical reproduction of musical work and
+broadcasting. Similarly to patents, the author receives an economic
+compensation, but the amount is generally decided by a court or by the
+consumer [@world2004wipo].
+
+The reason for these exceptions lies in economics. When a consumer gives
+a low but positive value to a work, and they are not willing to meet the
+cost of a transaction with the copyright holder, the diffusion of the
+work may be reduced to a sub-optimal level, diminishing the overall
+economic welfare [@landes1989economic]. To solve this problem, the US
+developed the *fair use* doctrine which, by analyzing the nature and the
+purpose of the usage of the work, determines whether a copyrighted work
+can be used without the permission of its author [@depoorter2002fair].
+The doctrine has no equivalent in Europe, but it is considered
+admissible in some national law regimes. Fair use exceptions generally
+include citations, news reporting, and use of the works for teaching
+purposes. Additionally, depending on the legislation, copyright
+protection may be limited by a range of defenses such as fair use for
+non-commercial purposes (private study and research), public interest,
+parody, review, and criticism.
+
+### Databases
+
+The recent technological advancements and the development of a
+data-driven economy prompted many business and industries to push their
+government for the introduction of a new right for protecting the
+investments made in databases. Database production is a long and
+expensive process, but ordered and easily searchable data-sets are
+essential prerequisites for many information services, and the basis for
+ML-powered AI.
+
+Potentially, databases could be covered by copyright, under the
+definition of literary work and in compliance with the Berne Convention.
+Additionally, article 5 of the WIPO Copyright Treaty (1996), states that
+*\"compilations of data or other material \[...\] which by reason of the
+selection or arrangement of their contents constitute intellectual
+creations, are protected as such. \[...\] This protection does not
+extend to the data or the material itself and without prejudice to any
+copyright subsisting in the data or material contained in the
+compilation\"*. However, copyright protection requires a creative effort
+and originality, and it is conceptually difficult to stretch these
+elements to databases. This opinion was first expressed with the
+sentence of the US Supreme Court in the case Feist v. Rural Telephone
+Service Company in 1991. Rural was a public utility providing telephone
+services to various communities in Kansas and published databases of
+telephone address. Feist extracted information from the database in
+question, and Rural accused them of being in infringement. The US
+supreme court sentenced that the database was not eligible for copyright
+protection because it lacked the requirement of originality, and its
+creation did not involve any creative effort, rather the opposite: the
+intellectual capital of databases depends on completeness, ease of
+access, and the standardized categorization of information. Databases
+are hardly created from scratch. On the contrary, they draw information
+from preexisting databases and other sources of data. On the other hand,
+applying copyright legislation to databases has raised more than one
+eyebrow: given the particular nature of the subject matter, applying the
+entire length of copyright protection to databases could potentially
+lead to a disproportionately higher welfare loss.
+
+Still, a part of the database industry lamented the absence of a system
+of protection for uncopyrightable databases as a potential cause of
+market failure, where free-rider competitors who contributed nothing to
+the data collection could appropriate the returns of the producer's
+investments. Therefore, starting from the 1960s, some European states
+created a series of legislative instruments to protect databases that
+fell outside the scope of copyright protection. Since legal
+discrepancies between the EU Member States could potentially harm the
+free-flowing of goods within the Digital Single Market (DSM), in in 1992
+the European Commission drafted a proposal for a Directive on the Legal
+Protection of Databases that introduced a sui-generis right for
+databases, and was later amended and entered into force in 1996. The
+Directive was not self-executable, and it needed the implementation law
+by the Parliaments of the Member States. While within the EU, the
+harmonization was concluded in 1998, at the international level the
+reciprocal character of the Directive has created pressures for the
+acceptance of the EU model of database protection.
+
+#### The European Directive on databases
+
+Article 1(2) defines a database as *\"a collection of works, data or
+other independent materials arranged in a systematic or methodical way
+and capable of being accessed by electronic or other means.\"* The
+directive excludes *\"computer programs used in the manufacture or
+operation of databases which can be accessed by electronic means.\"*
+
+In Art.3(1), the Directive distinguishes two different scenarios for a
+database. When the database already enjoys copyright protection, since
+the creative effort required for its creation makes it eligible for
+copyright protection and when it does not. When the database enjoys
+copyright protection, the Directive provides the author the standard
+copyright legislation, depending on how Member states structured the
+national law of application. Still, this provision cannot unreasonably
+prejudice the rightholder's legitimate interests or conflicts with the
+normal exploitation of the database. When a database does not enjoy
+copyright protection, it falls within the scope of the sui-generis
+right, that is the novel element of the European Directive, conditioned
+to the ability of the *compiler* of demonstrating that there has been a
+*\"qualitatively and/or quantitatively substantial investment in either
+the obtaining, verification or presentation of the content to prevent
+extraction and/or re-utilization of the whole or of a substantial part,
+evaluated qualitatively and/or quantitatively, of the contents of that
+database.\"*
+
+Extraction and re-utilization are precisely defined in the Directive.
+The former is defined as *\"the permanent or temporary transfer of all
+or a substantial part of the contents of a database to another medium by
+any means or in any form,\"* while the latter is *\"any form of making
+available to the public all or a substantial part of the contents of a
+database by the distribution of copies, by renting, or by other forms of
+transmission, including on-line.\"* This rule grants protection to the
+producer of a database, irrespective of the database's eligibility for
+copyright or other protections. However, actions concerning the
+non-substantial part of a database are non-infringing, and the
+sui-generis right is limited by first-sale exhaustion. Public lending is
+expressly excluded from the scope of protection. The national law of
+application determines additional exceptions.
+
+The protection accorded through the sui-generis right is granted for
+fifteen years, starting from the completion of the database. It is
+possible to renew the term of protection for another fifteen years if
+the database has been subjected to a substantial change that required a
+significant new investment. However, this creates issues concerning the
+incentive provided to database producers, since renewal creates an
+incentive to update the database even when there is no real need with
+the objective of extending protection [@koboldt1996eu]. Moreover, in the
+final draft of the Directive, the compulsory licensing for sole source
+databases originally proposed by the European Commission was deleted.
+Such a license would have made it possible in those instances where the
+stored information could not at all or not without great practical or
+financial difficulties be created or gathered independently
+[@grosheide2002database]. From a purely economic perspective, however,
+the absence of a compulsory licensing scheme equals to granting an
+indefinitely long monopoly. Data can be kept reserved but used within
+the firm, providing a comparative advantage. Databases are essential for
+Artificial Intelligence systems, since machine learning, the
+game-changer in the field of AI, needs organized and ready-to-use
+data-sets are to build effective predictive models. As a consequence,
+inefficiencies in economic welfare are created, increasing the
+deadweight loss caused by IPRs in the data economy.
+
+AI and Intellectual Property Rights {#ai_ip}
+-----------------------------------
+
+### Limits of IPRs legislation
+
+Unfortunately, the review of the main economic arguments on the best
+structure for IP systems remains on a theoretical basis. Since its first
+developments in the XIV century, the legal framework that surrounds
+patents, and, in general, IPRs, has demonstrated a lack of flexibility
+that is in striking contrast with what it aims to protect, that is,
+technological innovation and creation. While economists such as
+@nordhaus1969economic call for an increase in differentiation in the
+nature and degree of IP protection, based on industry and market needs,
+the fundamental economics of existing laws remain fixed on old
+assumptions and paradigms. This is because legal institutions evolve
+incrementally and are focused on preserving the integrity and
+consistency of rules, even when there is a dire need of radical
+transformations to remain faithful to the rationale and motivations that
+gave them birth in the first place [@david1993intellectual]. When
+patents first appeared in the XIV century, they were designed to attract
+foreign inventions to boost development. They incentivized innovation in
+the sense that they promoted the dissemination of precious information
+in a national economy, encouraging its growth in the long run, but they
+were conceived as a preindustrial system of protection that served
+preindustrial or industrial needs. The development of a knowledge-based
+economy sharpened the possibility of information to act both as a
+capital and a consumer good, and has made evident that the patent system
+needs a revision, since the incentives to innovate have changed (as the
+success of models such as patentleft and copyleft demonstrated).
+
+The fixed character of IP law has increased the level of uncertainty
+regarding the adaptation of IP law to new technologies
+[@david1993intellectual]. While patents were designed to promote
+innovation, new technologies and economic structures have changed their
+role in the economy. Invention is often a cumulative process and the
+enforcement of patent rights can interfere with further discovery.
+Patent races and inventing-around strategies may deflect resources and
+incentivize rent-seeking behavior, while at the same time discouraging
+complementary inventions because previous patentees may be able to
+extract revenues in downstream innovation [@david1993intellectual]. The
+current legal framework is far from being efficient and, in the
+meantime, new technologies keep on posing new challenges and requiring
+emergency adjustments to the new circumstances. In particular, AI
+technologies are posing critical challenges to the IP legal framework,
+while at the same time IPRs influence the structure and rate of
+innovation, introducing distortions in the market through the
+introduction of incentives or disincentives to innovators.
+
+Recently legal scholars have started a lively debate on how to face the
+challenges presented by AI to the current legal system. However, as it
+was previously mentioned, the legal perspective is intrinsically
+limited. Recalling the utilitarian justification, IPRs should be
+introduced only when they contribute to the promotion of innovation.
+Thus, I argue that the introduction or modification of IPRs regimes
+needs to prioritize the economic effects of introducing new norms rather
+than continuity with previous legislation. As mentioned in section
+[1.1.1.3](#utilitarian){reference-type="ref" reference="utilitarian"},
+policymakers should maximize the net social welfare when shaping the
+rule of property rights. This requires to strike a balance between
+incentives that stimulate innovation and the tendency of IPRs to create
+monopoly rights and dysfunctional effects.
+
+In particular, the general statements concerning utilitarian perspective
+on IPRs need to be reassessed with the concrete case examined, in our
+case the AI market. Unfortunately, since creative and innovation markets
+related to AI function under unequal conditions, this is not an easy
+task, and, even if IPRs are required to stimulate investments in R&D,
+current regimes need to be re-calibrated to take into account both
+market and non-market considerations, favoring an increase in the
+differentiation of the scope and length of IPRs. For example, a key
+factor is the elasticity of product demand, as it was suggested in
+section [1.2.1.2.2](#duration){reference-type="ref"
+reference="duration"} in relation to optimal patent design
+[@nordhaus1969economic]. IPRs are not justified a priori: if in the
+market there are already sufficient incentives to promote R&D efforts,
+the introduction of monopolies on technology would only reduce society's
+welfare, either through monopolies or by adding the administrative costs
+of the IP system. @Hilty2020IntellectualPJ explored various economic
+paradigms to justify the application of new IPRs to AI technologies: the
+general incentive theory, the investment protection theory, and the
+prospect theory.
+
+### General incentive theory
+
+General incentive theory is the original argument of IPRs, that we
+examined in section [1.1.3](#general_incentive){reference-type="ref"
+reference="general_incentive"}. It suggests intellectual outputs would
+not be produced without the incentive provided by property rights.
+However, it would be short-sighted to affirm that economic rewards are
+exclusively tied to mechanisms of appropriation such as IPRs. In
+particular, as it was mentioned in section
+[1.1.4](#oligopolistic){reference-type="ref" reference="oligopolistic"},
+maintaining a stable market position and/or accessing successful market
+opportunities may be determinant for a firm to invest in R&D. When we
+apply this theory to the AI market, there is no evidence of lack of
+motivation to invest in innovation, rather the opposite: AI-related
+innovation is thriving. While an under-provision in innovation in the AI
+field is still theoretically possible, this may likely be caused by
+other bottlenecks in the system, such as the scarcity of AI experts
+[@McGowan2019CollidingWA] and data fragmentation [@Martens2018TheIO],
+issues that cannot be solved by using IPRs.
+
+When we transpose this approach to the by-products of AI, legal scholars
+often claim that without gaining rights to the outputs of AI, developers
+have no sufficient incentives to create such AI systems in the first
+place [@abbott2017patenting]. However, this does not take into account
+that there are different ways through which developers may limit the use
+of these systems, such as product-as-a-service (PaaS), in which the use
+of the AI system residing in cloud platforms can be controlled by
+limiting the number of API calls, the duration of the task and the
+amount of the processing power used. Another commonly used business
+model is typical of the platform economy, where developers may provide
+the opportunity to access to higher-quality, personalized AI systems in
+exchange for a periodic fee[^8]. AI system developers can potentially
+never fully disclose the AI model to the end-user, thus making their
+work profitable without the need to claim ownership on AI by-products.
+
+We can also observe that the AI market has also adopted a
+self-regulation model, where actors voluntary share their intangible
+assets [@Gonzalez2020TheSO] under various kind of licenses. This
+approach is typical of software industry, where many important demanders
+actively contributed and distributed open source projects as a source of
+complementary innovation [@Wang2020OpenTY], while individual programmers
+often collaborated for prestige or good-will, leading to a process where
+innovation *feeds* itself. To a lesser extent, we are assisting to a
+similar process in the context of the data market, with pleas of the
+liberation of data gathered by public administrations in standard,
+freely accessible formats (under the open data paradigm) that may lead
+to increases in innovation rate and economic competitiveness for private
+companies [@Alderete2020TowardsMT].
+
+### Investment protection theory
+
+Investment protection theory focuses on the need to protect the
+investments made by the innovators by minimizing free-rider behavior
+[@Hilty2020IntellectualPJ]. It was modeled by @nordhaus1969invention,
+who applied this framework to technologies whose innovation processes
+are long and require high investments in markets with slow innovation
+cycles and high probability of imitation and misappropriation. This
+paradigm is extremely targeted to market scenarios where incentives to
+innovate are low, suggesting the introduction of IPRs as a way to
+increase them.
+
+Although AI technologies require a certain degree of investments (such
+as high-quality data and computing power), it varies greatly depending
+on the specific application sector and scale of the industry. However,
+in most cases, AI innovation works through incremental progress which
+generally does not require high investment [@Hilty2020IntellectualPJ].
+Even if imitation is possible, other systems of protection may already
+be in place, such as the database directive. Moreover,
+@teece1986profiting affirmed that, in certain cases, investments may
+already be protected even when IPRs are not granted at all.
+Specifically, he suggested that, in some cases, such as when new
+products are difficult to copy, there is no need for state-provisioned
+protection. He made the case of cospecialized assets, whose value is
+tied by a bilateral relation between two goods: possessing one without
+the other is of no use. He affirmed that in the context of innovations
+whose value depend on cospecialized assets that can easily be kept
+secret, IPRs are of no use, since a mechanism of appropriability is
+already in place, thus making the introduction of IPRs detrimental to
+economic welfare. A typical example of cospecialized assets in AI
+technologies is characterized by algorithms and weights. While
+algorithms are often published in scientific papers, weights[^9] are
+generally kept secret [@Hilty2020IntellectualPJ]. An AI system without
+correlating weights would be valueless for potential free riders.
+Moreover, imitation through reverse engineering is possible only to a
+certain extent because of the black box effect of ML and, even when it
+is possible, it is often more costly than building an original AI
+system. This further reduces the incentive for imitation in favor of
+autonomous creation. As a consequence, it seems that the investments
+undertaken for developing AI systems are already sufficiently protected
+and that the introduction of IPRs on the basis of investment protection
+theory is not motivated by any economic justification.
+
+Someone may suggest that this is only applicable to AI systems and not
+to the by-products of AI. However, the extent to which it may be
+reasonable to introduce additional IPRs to AI-aided products largely
+depends on the rate of innovation of the specific industry, which
+determines the rate of substitution of new products. The utility of AI
+outputs is strictly correlated to the time it takes for them to become
+obsolete. In other words, when AI-based innovation and creation surpass
+a certain threshold, the utility of each AI output reduces, as effect of
+incremental innovation, a situation where investment could not be
+recouped even with the introduction of IPRs[^10]. A higher rate of
+innovation reduces the temporal difference between dynamic efficiency
+and static efficiency, making IPRs detrimental to economic welfare. The
+rate of innovation depends on the specific economic sector of the AI
+output, that cannot be determined before and can only be evaluated on a
+case-by-case basis [@Hilty2020IntellectualPJ]. So, while IP protection
+for AI outputs may potentially be justified under the investment
+protection theory, affirming that a completely new IP regime is needed
+for AI by-products is merely speculative and it may be
+counterproductive, since it would increase the legal costs associated
+with innovation. Considering that current legislation already provides
+the possibility to protect AI-aided outputs by mentioning a human as
+inventor or author[^11], there is no need to create new IPRs.
+
+### Prospect Theory
+
+In section [1.2.1.2.1](#breadth){reference-type="ref"
+reference="breadth"}, I already presented the basis of prospect theory
+when referring to @kitch1977nature's proposition for determining optimal
+patent breath [@kitch1977nature]. He suggested granting to the inventor
+short and broad patents to improve R&D coordination and reduce
+over-investment in innovation. In the context of AI technologies,
+over-investment may seem relevant, but it would also interfere with the
+ability of other innovation to conduct parallel R&D efforts, thus
+unnecessarily blocking the way of other innovators. This may
+subsequently lead to *\"races to create or invent, which may lead to
+wasteful duplication of research effort. Furthermore, instead of
+enabling the original inventor to coordinate efficiently the
+exploitation of the technology, a quasi-monopoly may lead to satisfying
+behaviour and thus to an inefficiently narrow focus on improvements
+related to the primary AI creator's or inventor's principal line of
+business\"* [@Hilty2020IntellectualPJ]. The introduction of IPRs may
+reduce the incentive to proceed with cumulative innovations and favor
+rent-seeking behavior. As we will see in chapter
+three, this is particularly relevant, since AI
+technologies are a General Purpose Technology, and enhancing the scope
+of protection on the basis of @kitch1977nature's prospect theory is very
+likely to slow down or exacerbate virtuous cycle of complementary
+innovation, reducing economic welfare.
+
+Conclusions
+-----------
+
+This chapter presented Intellectual Property Rights, a legal institution
+that has the declared goal to incentivize innovative behavior. First,
+the philosophical foundations for the creation of property rights on
+intellectual creations were presented, distinguishing between the
+natural rights arguments, the desert argument, and the utilitarian
+argument, and accepting the latter as the most reasonable one, since it
+is agnostic to the introduction of IPRs. The utilitarian argument
+accepts IPRs only to the extent to which they present benefit to society
+and it is based on economic analysis. Second, I analyzed three IPRs
+strictly involved with AI technologies: patents, copyright and database
+sui-generis right. The section was mainly focused on the economics of
+patents, the first IPR introduced in the economy, on which other IPRs,
+such as copyright, were modeled. Third, I applied the economic analysis
+of IPRs to AI technologies. In contrast to the legal literature on the
+relations between IPRs and AI, I observed that new IPRs would only be
+detrimental to economic welfare and innovation. I determined that the
+dynamic character of the AI market and the presence of alternative
+systems of appropriation already provide sufficient incentives to embark
+in innovative behavior. The introduction of additional IPRs specific of
+AI technologies would only represent a burden to the innovative process,
+potentially hindering innovation.
+
+[^1]: For a detailed study on this topic, see @spence2007intellectual
+    and @menell1999intellectual.
+
+[^2]: Imagine a method for anticipating the behavior of financial
+    markets
+
+[^3]: the monopoly profit after the invention minus the monopoly profit
+    before it
+
+[^4]: In the United States it is generally referred to as
+    non-obviousness
+
+[^5]: In jurisprudence, there are two mainstream approaches: the
+    doctrine of equivalents and the doctrine of literal interpretation.
+    The doctrine of equivalents, extends protection to any product which
+    *\"does the same work in substantially the same way to accomplish
+    substantially the same result\"* [@Wawrzyniak1990ProvingPI], while
+    the doctrine of literal interpretation restricts the protection only
+    to what is explicitly claimed in the patent document
+    [@meurer2004invention; @lee2010patent]. Both these approaches might
+    be problematic, especially in rapidly emerging fields of technology,
+    where in addition to real findings, the inventor may have intuitions
+    regarding further applications of his invention.
+
+[^6]: Such as innovations that improve the quality of a preexisting
+    product or process or the discovery of new applications of an
+    already existing technology
+
+[^7]: They are considered mathematical processes and fall in the public
+    domain
+
+[^8]: Through the use of a technique called transfer learning
+
+[^9]: Trainable parameters that are optimized during the learning
+    process.
+
+[^10]: Which would only increase the deadweight loss and reduce economic
+    welfare.
+
+[^11]: Here it is important to underline that AI-produced inventions do
+    not exist, as it will be discussed in chapter
+    [\[chap:innovation\]](#chap:innovation){reference-type="ref"
+    reference="chap:innovation"}.

@@ -1,0 +1,193 @@
+Conclusion {#conclusion .unnumbered}
+==========
+
+Artificial Intelligence technologies are one of the critical elements of
+change in the short-medium term. The advent of a new GPT (which could
+very well be considered GMI[^1]) will deeply change the dynamics of the
+economy, politics, society, and international relations. The
+multidimensional character of technology influences the power dynamics
+between those who will be able to exploit the altered scenario, and
+those who will not.
+
+However, it would be fundamentally wrong to adopt a perspective in which
+we are merely victims of this transition. While this process of change
+cannot be stopped, individual and collective actors can guide and shape
+its direction, by establishing norms and institutions that minimize the
+damage and maximize the benefits. While science and technology can be
+used to pursue political goals, in their essence, their basic principles
+are politically agnostic, and only through awareness of the scope of the
+impact of these new technologies policymakers can aim to maximize the
+social welfare of the AI revolution.
+
+Unfortunately, today, one can observe an increase in the competition
+between the major countries in the AI industry: the US and China
+[@wipo2019technology], which have launched in a technological race.
+While this could be expected, since dominance in AI technologies is
+strictly linked to economic and political supremacy, blind competition
+is particularly problematic since there is the concrete risk that it
+would bring to the overseeing of keystone aspects of AI development,
+such as its ethical use. As it was presented in chapter
+[\[chap:ai\]](#chap:ai){reference-type="ref" reference="chap:ai"},
+although AI systems represents a fundamental improvement in prediction
+technologies, they cannot be considered intelligent in the same way
+humans are, and they are marked by flaws and dangers that are very
+difficult to forecast or detect. They can safely be used only in
+situations where the cost of error is minimal, while for more complex
+situations they need to be under human oversight. With the decrease of
+prediction cost, the value of judgment increases, especially in complex
+situations, where the negative consequences of AI mistakes increase, and
+human intervention is needed both for security and monitoring purposes.
+
+In chapter [\[chap:ip\]](#chap:ip){reference-type="ref"
+reference="chap:ip"}, some of the main normative constraints that shape
+the development of new technologies were presented: Intellectual
+Property Rights. The first part evaluated the main economic arguments
+put forward to justify their existence and concluded that the only valid
+descend from an utilitarian perspective, which does not presume the
+introduction of temporary monopoly rights without taking into account
+the negative consequences they generate into the economy. Then, the
+three IPRs most commonly applied to AI technologies were presented, with
+a specific focus on the economics of patents. Finally, economic analysis
+was applied to AI technologies, with the objective to verify whether the
+claims made by legal scholars on the need to introduce additional IPRs
+applicable to AI are justified or not. However, I found that current
+evidence does not justify this approach, since no additional incentives
+are needed to promote innovation in AI, and since there is a strong
+tendency towards self-regulation using patentleft or copyleft models,
+this calls towards a reduction in IPRs, rather than the opposite.
+
+Chapter [\[chap:innovation\]](#chap:innovation){reference-type="ref"
+reference="chap:innovation"} focused on the effects of AI technologies
+on innovation and the market. The first part centered on some technology
+categorization, namely General Purpose Technologies, Inventions of a
+Method of Inventing, and General Methods of Invention. Particular
+attention was given to GPTs, since they represent the focus of chapter
+[\[chap:analysis\]](#chap:analysis){reference-type="ref"
+reference="chap:analysis"} and there is a rich literature on their
+effects on the economy. A crucial point regards the phenomenon of
+innovation complementarities, which describes why GPTs represent a
+game-changer in terms of economic growth. Managing the virtuous cycles
+of innovation by minimizing the negative impact on employment will
+represent a crucial challenge for XXI century policymakers. The second
+part of the chapter focused on determining whether AI technologies
+possess some characteristics of these technological classes. Using a
+qualitative perspective, it is safe to affirm that AI presents features
+of both GPTs and IMIs, a combination that the literature could only find
+in digital computing. AI is configuring itself as a rapidly evolving,
+widely applicable, and complementary technology while at the same time
+capable of expanding the knowledge frontier of science and increasing
+the rate of scientific discovery. The AI revolution will invest a large
+fraction of economic sectors, incentivizing investments in AI research
+and development, with effects that will bounce from one sector to
+another. Although the invention of multi-function closed-loop Autonomous
+Discovery Systems is far from being a reality, AI technologies are
+likely to cause an unprecedented increase in productivity in academia,
+opening up entire new paradigms of science. Finally, the chapter
+concludes by presenting some of the consequences that AI is having on
+market structure. In particular, the presence of economies of scope is
+leading to a process of market concentrations between a small number of
+firms that compete with each other in innovation, conquering new markets
+and having higher and higher barriers of entry, represented either by
+extreme network effects or the exclusive possession of fundamental
+assets such as users' data. Considering that the AI market structure
+leaves little space for new entrants, the competition in innovation is
+likely to increase, especially now that the COVID-19 pandemic has
+prompted world economy in a deep economic crisis, opening opportunities
+for a redistribution of global economic power. At the same time, state
+and regional actors are trying to manage the digitization of the
+economy, with the European Union at the forefront. In particular, two
+pieces of legislation are in the process of being evaluated by the
+European Parliament: the Digital Market Act (DMA) and the Digital
+Services Act (DSA), while a third piece of legislation specifically
+targeted to AI technologies is expected in the first quarter of 2021.
+The DMA aims to reduce the market power of gatekeepers, multi-products
+platforms that have extreme prescriptive and indiscriminate power on
+what it can and cannot be done in their platforms, while at the same
+time potentially competing with actors using their platforms. The DSA is
+instead focused on establishing obligations and accountability for
+intermediaries' platforms that provide digital services, and enhance
+consumer protection, whether the services are located in or outside the
+EU. These sets of norms are characterized by having extraterritorial
+character, since their effectiveness is tied to the individual, and not
+to the legal site of the firm, and it is conforming to the trend of EU
+law launched by the GDPR. Differently from the imposition of additional
+IPRs, these sets of norms aim to improve competition and consumer
+protection, possibly minimizing the negative consequences of a
+widespread introduction of AI technologies.
+
+Finally, chapter
+[\[chap:analysis\]](#chap:analysis){reference-type="ref"
+reference="chap:analysis"} objective's was to provide quantitative
+evidence to the claims of chapter
+[\[chap:innovation\]](#chap:innovation){reference-type="ref"
+reference="chap:innovation"}: whether AI is a General Purpose
+technology, and whether we are assisting to a market concentration
+process of the AI market. The data used to perform the analysis was
+formed by a subset of PCT patents issued from 1995 to 2017. Most of the
+chapter focused on using traditional indicators, such as the generality
+index, and developing new indexes based on the evolution of the
+technology network formed by AI-related patents. The empirical evidence
+shows that AI is indeed a GPT, and that the number of AI-related patents
+is increasing at high rates, pointing towards the fact that it is
+rapidly pervading our economy in a variety of different application
+sectors. However, patent data is intrinsically limited, and the results
+of the analysis on market concentration must be treated carefully, as it
+can only be deducted that the patent portfolios of strong patentees is
+increasing when compared to those of weak patentees, thus suggesting
+that some companies are heavily investing in AI technologies.
+
+Being at the dawn of the economic explosion of AI, treating it as a GPT
+opens up new prescriptions for policy intervention. From a purely
+economic standpoint, we are likely to assist in increases in the
+innovation rate in the short term, causing disruptions in the labor
+market. Some jobs will cease to exist because human labor will be
+substituted by artificial labor [@abrardi2019economics], while new
+professional figures capable of building, managing, or operating AI
+systems will be needed, creating a mismatch in the labor market. If
+policymakers will not draft effective redistribution policies, there is
+a substantial risk of deepening existing inequalities between social
+groups, leading to unrest and discontent among the \"losers\" of the AI
+revolution. @Acosta2019InequalityMP studied the relationship between
+income inequality and political polarization, identifying how economic
+factors have a deep impact on voting behavior. In particular, they
+confirmed the assumption that governments parties get penalized in
+periods of poor economic performance, and proved that income inequality
+has become a main driver for the success of far-right political parties,
+while structural unemployment favors far-left parties. More
+interestingly, they also affirmed that political polarization was
+reduced in contexts where income inequality was countered by specific
+policies, either in the form of progressive taxation or by addressing
+the job market mismatch. Technological advancement can be considered one
+of the factors at the root of political polarization but, at the same
+time, while its direction and pace can be guided and influenced, it
+cannot be stopped. The Luddite fallacy is an ever-present threat when
+dealing with technological innovation, however economic and political
+analysis show us that states where short-sighted emergency policies have
+not solved structural problems, and we assist to a rise of political
+extremism, while at the same time they lag behind other countries in
+terms of economic performance, up to a point where the resources to make
+structural reforms lack. At the same time, excessive regulation in the
+digital arena may lead to a reduction in the economic competitiveness in
+the international scenario. The extent to which a country will be
+successful in dealing with the AI revolution thus will be largely depend
+on its ability to balance incentives for technological innovation and,
+the implementation of labour policies that prepare the workforce to
+switch occupation towards the new opportunities offered by AI
+technologies, and ensuring competitiveness in the digital market, that
+has now reached a prominent place in the economy.
+
+AI technologies are configuring as a key factor of change in the
+international and national economy. They are expanding the borders of
+what is technically possible and conceivable by human societies, but
+with great power comes great responsibility. If not properly guided,
+mismanaged innovation can have devastating effects on social cohesion,
+potentially paving the way for increasing inequality and authoritarian
+regimes. Ethical use of AI technologies is key to ensure a future that
+is sustainable, rich, and fair. While regulation of what can or cannot
+be produced may be seen as a cost in the short term, if properly
+designed it may lead to enhanced social welfare in the medium-long term.
+
+[^1]: A technology widely applicable in a variety of fields, with strong
+    innovation complementarities and that can potentially be used during
+    the R&D process, shifting entire scientific paradigms and
+    drastically increasing the innovation rate.
