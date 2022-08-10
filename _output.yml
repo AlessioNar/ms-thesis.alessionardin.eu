@@ -1,0 +1,40 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toolbar:
+      position: fixed
+    edit : null
+    search:
+      engine: lunr # or fuse
+      # options to control/tune search engine behavior (for
+      # fuse.js, refer to https://fusejs.io/api/options.html)
+      options: null
+    fontsettings:
+      theme: night
+      family: sans
+      size: 2
+    sharing:
+      facebook: false
+      github: true
+      twitter: false
+      linkedin: true
+      weibo: false
+      instapaper: false
+      vk: false
+      whatsapp: false
+      all: ['linkedin', 'github']
+    info: true
+    toc:
+      before: |
+        <li><a href="https://alessionardin.eu">alessionardin.eu</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+    download:
+      - ["ms-thesis.pdf", "PDF"]
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
+bookdown::epub_book: default

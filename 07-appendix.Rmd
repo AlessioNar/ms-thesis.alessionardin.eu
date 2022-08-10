@@ -1,0 +1,474 @@
+A note on closed-loop systems {#ads .unnumbered}
+=============================
+
+Recently, a lively debate has sparkled around the notion that some
+Artificial Intelligence systems can perform the research process
+autonomously, especially within the academic community that investigated
+the legal aspects of intellectual property rights
+[@abbott2016think; @abbott2017patenting; @pearlman2017recognizing; @shemtov2019study].
+I argue that the excitement around the inventing capabilities of AI
+systems is mainly caused by a lack of comprehension of their inner
+workings and that state-of-the-art Autonomous Discovery Systems (from
+now on, ADS) are either very far from being completely autonomous or
+inapplicable in fields other than the extremely specific ones they were
+designed for. The legal arguments are often more based on conjectures
+and suppositions than on concrete use-cases of ADSs. In the next
+paragraphs, I will examine three examples of ADS products: the NASA
+antenna, the Robot Scientist project, and DABUS.
+
+The **Robot Scientist project** built two Automated Discovery Systems
+(ADS), ADAM and EVE, which automated the entire research pipeline. ADAM
+is an ADS designed to *\"carry out microbial growth experiments to study
+functional genomics in the yeast Saccharomyces cervisiae, specifically
+to identify the genes encoding 'locally orphan enzymes'\"*
+[@sparkes2010towards], while Eve is designed to find new drugs to cure
+neglected tropical diseases.
+
+![The workflow of the ADAM robot scientist
+[@sparkes2010towards]](image 3.1){#fig:robotscientist
+width="\\textwidth"}
+
+These systems use a *\"combination of computational methods, automated
+instruments, closed-loop learning, advanced laboratory robotic systems
+and formal logical expression of information\"* [@sparkes2010towards] to
+gain new knowledge. By tasking the AI ayarwm to conduct cycles of
+experimentation on a robotic laboratory, the robot scientist
+*\"automatically generates hypothesis from the available background
+knowledge and models, design physical experiments to test them, carries
+out experiments, and then analyzes and interprets the results\"*
+[@sparkes2010towards]. This approach has several advantages, such as
+capturing every detail of the scientific discovery process: goals,
+hypotheses, results, and conclusions, while gathering useful meta-data
+such as environmental conditions, detailed content layout information,
+instrument settings, protocols, and runtime logs, fundamental to achieve
+explainability. However, despite these unquestionable advantages, ADAM
+is only effective in a narrow field. Its algorithms were trained on data
+that were first selected by a scientist, and it was designed exclusively
+for research on yeast. Repurposing ADAM requires considerable time and
+effort.
+
+The amount of work that had to be done to build ADAM shows how it is
+challenging to consider it fundamentally different from any other
+research tool, thus inserting its by-products in the category of
+AI-aided inventions.
+
+Another approach to *\"automate invention\"* is through the use of
+**genetic programming**. Genetic programming is an AI technique where
+computer programs are encoded as a set of genes that are then modified
+using an evolutionary algorithm. NASA used this technique in 2004 to
+develop an antenna with specific requirements [@lohn2005evolved]. After
+the developer provided the genetic algorithm with some parametric
+information regarding the final product, the software started producing
+random designs, and, through an evolutionary process, the AI simulated
+various prototypes keeping only the one closer to the given
+requirements. When the specifications were reached, the AI system
+stopped. Genetic programming is also used in intelligent manufacturing,
+where it tests possible improvements in the production process. Based on
+a series of parameters, the AI detects the most efficient way to improve
+production in a specific automatized plant. The developer plays a
+fundamental role in choosing the environment and in providing the data
+needed for the innovation to take place, a process that he/she needs to
+repeat every time the algorithm is repurposed.
+
+Other claims regarding existing ADS are much debated since they do not
+provide a precise technical explanation of their computational process.
+A curious case is the one regarding DABUS (Device for the Autonomous
+Bootstrapping of Unified Sentience) that, according to its creator,
+Stephen Thaler, it has developed a food container and various methods
+capable of attracting enhanced attention in a digital setting.
+Differently from other ADSs, the detail information regarding the
+functioning of DABUS is kept secret, and Thaler himself provided a vague
+explanation, even in his patent application.
+
+![DABUS, [@dabus]](image 3.2){#fig:dabus1 width="10cm"}
+
+According to what it is claimed in the project website, *\"the DABUS
+architecture consists of a multitude of neural nets, with many ideas
+forming in parallel across multiple computers\"* [@dabus]. The process
+of idea creation is formed by a series of disconnected neural nets that
+contain different interrelated *\"memories\"* of a linguistic, visual,
+or auditory nature. When DABUS is activated, nets combine and detach,
+following a controlled chaos algorithm that operates both within and
+between them. In this way, *\"cumulative cycles of learning and
+unlearning\"* making a fraction of these nets *\"interconnect into
+structures representing complex concepts\"* [@dabus]. These structures
+then tend to connect continuously with others that allegedly represent
+their *\"consequences'* in cycles of creation and disruption of
+connections.
+
+![Representation of DABUS \"thought process\"
+[@dabus]](image 3.3){#fig:dabus2 width="\\textwidth"}
+
+At the same time, DABUS applies what they define *\"novelty filter\"* or
+*\"anomaly filter, \[...\] adaptive neural nets that absorb the status
+quo within any environment and emphasize any departures from such
+normalcy,\"* to detect and isolate freshly forming concepts [@dabus].
+These filters allegedly serve to identify critical neural nets (also
+called *\"hot buttons\"*) that are considered essential for achieving
+one or more desirable outcomes, thus triggering the release of signals
+that reinforce or destroy a concept chain. After a certain
+threshold,*\"such ideas are converted into long term memories,
+eventually allowing DABUS to be interrogated for cumulative inventions
+and discoveries\"* [@dabus].
+
+While at first sight, DABUS may appear as an *\"invention machine,\"* as
+claimed by its creator, when what it has been disclosed so far is
+analyzed in detail, several observations arise. First, it seems like the
+basic concepts draw a lot from genetic programming, where evolutionary
+algorithms detect anomalies and suppress *\"unfit\"* combinations.
+However, rather than the criteria being the degree of adherence to
+specific parameters, it seems that the benchmark consists of eluding
+prior art and provide some degree of novelty. In this sense, DABUS
+should not be considered as an actual *\"invention machine\"* but
+instead an *\"inventing-around machine,\"* that looks the right
+combinations to elude the breadth of already existing patents without
+infringing other patents. However, DABUS operations are limited to
+automating the process of identifying novelty, and it cannot be said
+that it understands the *\"ideas\"* that allegedly produces. Recalling
+the Chinese Room test proposed by @Searle1990MindsBA, it would seem that
+there is no difference between DABUS and other AIs, such as machine
+translation models. As even Thaler affirmed, the outcome of the
+allegedly generated inventions largely depends on the provided data:
+*\"DABUS has autonomously generated two fractal-related inventions, but
+that's because this AI-child was raised in a 'household' wherein fractal
+theory was often discussed\"* [@dabus]. As a result, is it correct to
+affirm that DABUS generated these inventions? Should not instead be
+considered an instrument that, based on a selection of ideas chosen by
+an operator, produces something new by randomly trying out combinations?
+When framed like this, the control over what is being invented shifts
+from DABUS to whoever selects the initial data. What I suggest is
+instead that DABUS should not be considered an *\"artificial inventor\"*
+at all (as claimed by Thaler), but rather an extremely sophisticated
+tool able to enhance human capabilities. So, even if Thaler's
+propositions over DABUS capabilities respect reality, an operator still
+controls what is being invented. Again, the by-products of DABUS should
+be considered AI-assisted inventions.
+
+The examples provided in this paragraph represent the state-of-the-art
+in Automated Discovery Systems. However, all these systems still involve
+in some way human intervention, that occurs either through the decision
+of the direction of the discovery process, by explicitly tasking an ADS
+towards the development of a product with specific characteristics
+(inverse design, genetic programming), or by providing the ADS with a
+selection of pre-processed data (DABUS). Moreover, the scope of
+application of these ADSs is still extremely narrow. At present,
+extensive training and/or modifications in the physical apparatus
+represent a bottleneck for the repurposing of closed-loop ADS towards
+different goals.
+
+Data collection {#datagathering .unnumbered}
+===============
+
+When dealing with patent data, a fundamental step concerns identifying
+which patents are associated with a specific technology. This generally
+involves two steps:
+
+-   Defining the boundaries of a product concerning a technology;
+
+-   Determining the ways in which a that boundaries can be identified in
+    patent data.
+
+When we apply this procedure to AI technologies, the first step is
+particularly problematic. As it was already mentioned in chapter
+[\[chap:ai\]](#chap:ai){reference-type="ref" reference="chap:ai"}, the
+definition of AI has changed many times in the past, and it is
+particularly complex for the researcher to codify this definition in a
+structured query. For the purpose of this dissertation, I applied the
+broadest possible definition of AI, following the model provided in
+@wipo2019technology.
+
+The second step (determining the way in which such boundaries can be
+identified in patent data), involves a different set of decisions by the
+researcher. Among the literature on the methodology of patent analysis,
+two main method are used to individuate and locate a specific technology
+field. One is generally based on analyzing sequential parts of text of
+variable length and scope (such as abstract, claims, or description) of
+patent documents, and may be based on text mining techniques, using
+either heuristic, machine learning and deep learning techniques (in most
+cases mixed methodologies are used). The other is based on using
+metadata and bibliographic information, such as technological classes.
+Both approaches have advantages and disadvantages, and it is common
+practice to use a mixed methodology. For the purposes of this thesis, I
+used the approach adopted by WIPO [@wipo2019technology], in which three
+different queries were used to identify AI technologies, thus leading to
+determining that a patent involves the use of AI technologies if is
+present in either one of the three queries.
+
+The first query was structured to target patent applications that had
+associated the Cooperative Patent Classification technological classes
+retained as specific of AI technologies by experts of the field. This
+led to the retrieval of $54816$ unique patent applications. The second
+query was based on the hypothesis that a relatively large amount of
+AI-related patents may have been classified in non-specifically
+AI-related classification codes and could only be captured using
+keywords. The second subset of unique patents that contained a selected
+list of keywords in their titles or abstracts returned $6651$ unique
+patent applications.
+
+The third query aimed to combine symbol-based and keyword-based search,
+retrieving unique patents that were assigned either one of the
+International Patent Classification technological classes or one of a
+second group of CPC technological classes, and which contained in their
+titles and abstracts at least one of the keywords present in a second
+selected list. This has led to the retrieval of $34269$ unique
+applications. Differently from the WIPO query strategy, this third query
+was limited to CPC and IPC codes, since the sample choice was restricted
+to PCT patents, which have no technological classes assigned using the
+Japanese scheme.
+
+After dropping duplicate patents, the total subset retrieved contained
+$91797$ unique applications.
+
+The classification codes and keywords used for the query are contained
+in the csv files `query_codes.csv` and `keywords.csv`, available in the
+folder `data/data_gathering` of the GitHub repository of this
+dissertation [@nardin2021analysis].
+
+Control sample
+--------------
+
+To compare the result of the generality index of AI patents, I built a
+control sample to verify whether AI-related patents had, on average, a
+higher generality. The control sample was built on three criteria: the
+patents had to be filed at the same patent authority (in our case,
+WIPO), in the same year, and had to have the most similar number of
+forward citations. The matching strategy was 1:1, with no other weights
+assigned. This choice was motivated by the fact that by using a matching
+strategy based on technological classes would have increased the risk of
+including in the control sample false negatives.
+
+An alternative source of data: Open Patent Services
+---------------------------------------------------
+
+During the process of writing this thesis, before I gained access to the
+PATSTAT 2018b, I used the Open Patent Services API to search for patents
+related to AI. To facilitate the authentication process and perform
+query directly from R, I wrote various functions that I united in an R
+package, Rops, available on GitHub [@Nardin2020rops].
+
+Applicant disambiguation {#applt_dis .unnumbered}
+========================
+
+The process of applicant harmonization is complex and subjected to a
+trade-off between precision and accuracy. One of the main issues in the
+analysis of patent applicants derives from the different ways their name
+is registered in patent documents. A firm may apply for a patent through
+different branches according to their geographical localization, legal
+status, corporate policy, or other reasons. Name differentiation may
+even be a deliberate choice by companies, to actively obstacle business
+intelligence operations of competitors. Some patent authorities compiled
+databases with the purpose of partially overcome this issue. Datasets
+compiled by trustworthy authorities are particularly useful for our
+research purposes. For the purposes of this thesis I used the HAN
+database, developed by @HANOECD, that associated to the patent
+identifier `appln_id` a large number of harmonized applicants' names.
+PATSTAT provides such feature in the table `tls206_pers`. Unfortunately,
+the HAN database is rich of false negatives, since it prioritizes
+accuracy over completeness. For the purpose of this research, a higher
+degree of completeness was required, thus the applicant sample data was
+subjected to additional harmonization steps.Another issue of applicant
+name harmonization derives from the fact that patents are fully
+transferable property items and that the PATSTAT database does not keep
+track of property changes after its publication thus without following
+it during the patent life-span. However, since we are mostly interested
+in determining the innovator that developed the original invention, this
+limit can be left out.
+
+First, patent applicants for the AI sample were retrieved from the
+original database, that returned $96729$ unique patent applicants. Then
+a disambiguation procedure was applied and the number of unique
+applicants was reduced to $93646$ unique applicants names. The
+harmonized applicant names coming from the HAN database were first
+subjected to the harmonize function contained in the harmonizer package
+[@Vlasov2020], that performs parsing operations using the following
+algorithm:
+
+1.  Cleaning spaces
+
+2.  Removing HTML codes
+
+3.  Translating non-ASCII to ASCII
+
+4.  Upper casing
+
+5.  Standardizing organizational names
+
+6.  Removing brackets
+
+7.  Cleaning spaces
+
+In particular, during the fifth step, the harmonize function looks for
+standard company information such as 'corporation', 'company', and
+'limited', or information related to the geographical position of the
+applicants such as 'America', or 'Europe', and transforms them in a
+standardized format such as CORP, IN, LT, USA, or EU that are later
+added to the final part of the application name.
+
+Next, these particles were removed to increase the harmonization. The
+complete list of the stop-words used in the procedure can be found in
+the `data/applicants/stopwords.csv` file in the Github repository
+[@nardin2021analysis]. This allowed to gather under the same applicant
+patents that were previously associated to different applicant names,
+such as 'GOOGLE LL', 'GOOGLE LT' and 'GOOGLE USA'.
+
+Further harmonization would require to group companies with different
+names that are part of the same conglomerate. However, it would require
+keeping track of mergers and acquisitions regarding companies and I had
+no access to such database, since they are mostly licensed on a
+commercial basis.
+
+Further descriptive statistic {#tables .unnumbered}
+=============================
+
+::: {#table:count}
+    Year      AI      PCT   AI/PCT
+  ------ ------- -------- --------
+    1995     570    39059    1.459
+    1996     623    47097    1.323
+    1997     809    55905    1.447
+    1998    1158    65662    1.764
+    1999    1460    74932    1.948
+    2000    2273    91434    2.486
+    2001    2678   106215    2.521
+    2002    2654   108662    2.442
+    2003    2432   113403    2.145
+    2004    2458   120643    2.037
+    2005    2803   134605    2.082
+    2006    3138   149345    2.101
+    2007    3458   157557    2.195
+    2008    3484   160537    2.170
+    2009    3272   152745    2.142
+    2010    3607   161441    2.234
+    2011    4549   179314    2.537
+    2012    4874   191608    2.544
+    2013    6459   201233    3.210
+    2014    7451   210153    3.546
+    2015    8635   212737    4.059
+    2016   10434   226513    4.606
+    2017   12518   237452    5.272
+
+  : Yearly patents application filed
+:::
+
+[\[table:count\]]{#table:count label="table:count"}
+
+::: {#table:growth}
+     Interval      AI     PCT
+  ----------- ------- -------
+    1995-1996    9.30   20.58
+    1996-1997   29.86   18.70
+    1997-1998   43.14   17.45
+    1998-1999   26.08   14.12
+    1999-2000   55.68   22.02
+    2000-2001   17.82   16.17
+    2001-2002   -0.90    2.30
+    2002-2003   -8.36    4.36
+    2003-2004    1.07    6.38
+    2004-2005   14.04   11.57
+    2005-2006   11.95   10.95
+    2006-2007   10.20    5.50
+    2007-2008    0.75    1.89
+    2008-2009   -6.08   -4.85
+    2009-2010   10.24    5.69
+    2010-2011   26.12   11.07
+    2011-2012    7.14    6.86
+    2012-2013   32.52    5.02
+    2013-2014   15.36    4.43
+    2014-2015   15.89    1.23
+    2015-2016   20.83    6.48
+    2016-2017   19.97    4.83
+
+  : Growth rate of patent applications filed using the PCT route
+:::
+
+[\[table:growth\]]{#table:growth label="table:growth"}
+
+::: {#cpc_variety}
+    Year    AI   PCT    ratio
+  ------ ----- ----- --------
+    1995    87   626   13.898
+    1996    77   628   12.261
+    1997    93   635   14.646
+    1998   111   634   17.508
+    1999   119   636   18.711
+    2000   133   634   20.978
+    2001   139   633   21.959
+    2002   157   640   24.531
+    2003   136   638   21.317
+    2004   132   639   20.657
+    2005   143   638   22.414
+    2006   141   642   21.963
+    2007   150   639   23.474
+    2008   153   641   23.869
+    2009   157   645   24.341
+    2010   160   649   24.653
+    2011   195   642   30.374
+    2012   208   648   32.099
+    2013   228   644   35.404
+    2014   249   643   38.725
+    2015   280   650   43.077
+    2016   288   652   44.172
+    2017   300   648   46.296
+
+  : Variety of CPC technological classes
+:::
+
+::: {#ipc_variety}
+    Year    AI   PCT    ratio
+  ------ ----- ----- --------
+    1995    88   606   14.521
+    1996    78   603   12.935
+    1997    69   574   12.021
+    1998    90   573   15.707
+    1999    97   578   16.782
+    2000   120   589   20.374
+    2001   119   585   20.342
+    2002   132   593   22.260
+    2003   139   618   22.492
+    2004   145   620   23.387
+    2005   136   619   21.971
+    2006   137   624   21.955
+    2007   132   623   21.188
+    2008   141   618   22.816
+    2009   136   616   22.078
+    2010   143   619   23.102
+    2011   159   617   25.770
+    2012   173   618   27.994
+    2013   179   616   29.058
+    2014   210   613   34.258
+    2015   225   616   36.526
+    2016   234   619   37.803
+    2017   254   623   40.770
+
+  : Variety of IPC technological classes
+:::
+
+::: {#table:applt_groups}
+    Year   0%-90%   90%-99%   Top 1%
+  ------ -------- --------- --------
+    1995     0.69      0.25     0.06
+    1996     0.67      0.28     0.04
+    1997     0.73      0.22     0.05
+    1998     0.70      0.21     0.08
+    1999     0.65      0.23     0.12
+    2000     0.61      0.24     0.16
+    2001     0.69      0.23     0.08
+    2002     0.58      0.28     0.14
+    2003     0.60      0.24     0.15
+    2004     0.56      0.27     0.17
+    2005     0.56      0.28     0.16
+    2006     0.53      0.25     0.22
+    2007     0.53      0.25     0.22
+    2008     0.49      0.29     0.22
+    2009     0.51      0.27     0.22
+    2010     0.47      0.28     0.25
+    2011     0.42      0.28     0.29
+    2012     0.43      0.28     0.29
+    2013     0.38      0.27     0.35
+    2014     0.38      0.29     0.34
+    2015     0.37      0.26     0.37
+    2016     0.35      0.27     0.38
+    2017     0.34      0.27     0.39
+
+  : Proportion of patents by applicant group
+:::

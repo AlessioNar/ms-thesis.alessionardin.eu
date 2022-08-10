@@ -1,0 +1,26 @@
+---
+title: "Artificial Intelligence as a General Purpose Technology"
+author: "Alessio Nardin"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [packages.bib, biblio.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: "This thesis aims to explore some of the issues concerning the impact of Artificial Intelligence on innovation and specifically whether AI should be considered both as a General Purpose Technology and a research tool that can itself be used to increase the rate of innovation, also defined in the literature as a General Method of Invention. AI can both cause severe disruption in the economy and society and foster economic growth and development. After a historical and conceptual introduction of the mechanics of AI and a presentation of the institutions that regulate innovations (intellectual property rights), the work focus on the impact of AI on innovation, both through a qualitative analysis of the different ways and in which AI can be deployed and through the deployment of traditional and new indicators to detect GPTs in patent data."
+
+link-citations: yes
+github-repo: AlessioNar/ms-thesis.alessionardin.eu
+---
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+) ,'packages.bib')
+
+```
+
+# Abstract {#abstract .unnumbered}
+
+This thesis aims to explore some of the issues concerning the impact of Artificial Intelligence on innovation and specifically whether AI should be considered both as a General Purpose Technology and a research tool that can itself be used to increase the rate of innovation, also defined in the literature as a General Method of Invention. AI can both cause severe disruption in the economy and society and foster economic growth and development. After a historical and conceptual introduction of the mechanics of AI and a presentation of the institutions that regulate innovations (intellectual property rights), the work focus on the impact of AI on innovation, both through a qualitative analysis of the different ways and in which AI can be deployed and through the deployment of traditional and new indicators to detect GPTs in patent data.
