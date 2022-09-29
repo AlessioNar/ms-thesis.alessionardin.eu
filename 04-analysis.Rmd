@@ -47,12 +47,12 @@ hypothesis. Originality is a backward-looking citation measure that aims
 to identify the exact arrival dates for influential innovations,
 longevity is the speed of obsolescence for inventions in different
 industries, and generality is a classical Herfindahl-Hirschman index
-that measures the technological diversity range of citing patents.[^1]
+that measures the technological diversity range of citing patents.[^31]
 They also proposed to use the number of technological classes assigned
 to each patent as a measure of patent scope. Their findings contradicted
 the expectations that electricity should be considered a GPT.
 
-[^1]: The standard formula for generality is computed as
+[^31]: The standard formula for generality is computed as
     $G_{i} = 1-\sum{\frac{\left(s_{ij}\right)^2}{NClass_J}}$ and it is
     presented in detail in section
     [1.3.2](#sec:perv){reference-type="ref" reference="sec:perv"}.
@@ -73,13 +73,13 @@ distance between the cited and citing patents) could be longer than
 average, but that, in the long run, GPT patents should turn up to be
 highly cited. They expanded the use of the Generality measure,
 correlating with the absolute number of citations, and they suggested to
-examine also citations of the second degree[^2]. It is important to note
+examine also citations of the second degree[^32]. It is important to note
 that, in computing the Generality index, when a patent had no citations,
 $G$ is not defined, while if the number of citations is equal to $1$,
 they chose to assign $G = 0$. In their analysis, they decided to test
 the validity of the Generality index based on five different
-classification systems, three based on technological classification[^3],
-and two related to industry[^4]. This choice was motivated by the fact
+classification systems, three based on technological classification[^33],
+and two related to industry[^34]. This choice was motivated by the fact
 that *"it may be argued that a GPT is not likely to manifest itself as a
 series of citations by patents in different technology classes, but
 rather as citations by firms in different industries"*
@@ -88,12 +88,12 @@ complementarities, they proposed to search for the patent classes that
 presented a rapid growth in patenting, and then to compare it with the
 growth rates of the citing patents.
 
-[^2]: The citations of a citation
+[^32]: The citations of a citation
 
-[^3]: The US patent classes, Hall-Jaffe-Trajtenberg technology
+[^33]: The US patent classes, Hall-Jaffe-Trajtenberg technology
     subcategories, and the International Patent Classification
 
-[^4]: Industry of manufacture and Industry of use, based on
+[^34]: Industry of manufacture and Industry of use, based on
     @silverman1999documentation
 
 @jovanovic2005general adopted a different approach, basing their GPT
@@ -221,9 +221,9 @@ mentioning, not because they are targeted to determine whether AI should
 be considered a GPT, but rather because they were commissioned to assess
 the state of AI technologies in the economy. They are based on patent
 analysis and were commissioned by important players in the innovation
-scenario: WIPO, and USPTO.[^5]
+scenario: WIPO, and USPTO.[^35]
 
-[^5]: World Intellectual Property Organization and United States Patents
+[^35]: World Intellectual Property Organization and United States Patents
     and Trademark Office.
 
 The WIPO study on AI was commissioned in the context of the 2019 WIPO
@@ -232,7 +232,7 @@ research and technology. WIPO analyzed patent data to identify the
 patent families related to AI technologies based on the Questel Orbit
 patent database. Of particular interest is the query strategy used to
 identify AI-related patents, since the one I adopted in the empirical
-study for this dissertation is largely based on it[^6]. To overcome the
+study for this dissertation is largely based on it[^36]. To overcome the
 limits of keywords-based queries, WIPO focused on used a combination of
 technology classification codes and keywords that led to the gathering
 of $339 828$ patents related to AI. Then, using a hierarchical
@@ -250,7 +250,7 @@ technique, boosted by implementation of Deep Learning and neural
 networks, and that, starting from 2002, there has been an acceleration
 in the number of patents regarding AI technology.
 
-[^6]: A summary of WIPO query strategy can be found in appendix
+[^36]: A summary of WIPO query strategy can be found in appendix
     [B](#datagathering){reference-type="ref"
     reference="datagathering"}
 
@@ -326,9 +326,9 @@ related to AI technologies from 1995 to 2017 over a total of $3198252$
 patents filed using the PCT route. The methodology used for the
 selection of the patents involving AI technologies is based on the WIPO
 study [@wipo2019technology] and it is described in detail in Appendix
-B.[^7]
+B.[^37]
 
-[^7]: The complete code used during the analysis can be found on the
+[^37]: The complete code used during the analysis can be found on the
     MyThesis repository on Github
     <https://github.com/AlessioNar/MyThesis> [@nardin2021analysis].
 
@@ -428,7 +428,7 @@ suggesting that, starting from 2013, we assist to a progressive increase
 in the percentage of AI-related patents filed following the PCT route
 every year. From more or less stable plateau comprised between 1.5 % and
 2.5 % from 1995 and 2012, the percentage increases to 3.24% in 2013, up
-to reach more than 5% in 2017[^8]. The timing of this surge in AI
+to reach more than 5% in 2017[^38]. The timing of this surge in AI
 patenting is particularly significant. If we recall the historical
 evidence mentioned in chapter one, 2012 was the year when the new
 generation of AI technologies (those related to Machine Learning and
@@ -441,7 +441,7 @@ experiencing a rapid increase in patenting activity, that become more
 marked from 2012 onwards, up to become the 5.3% of the overall PCT
 patents in 2017.
 
-[^8]: In appendix [E](#tables){reference-type="ref"
+[^38]: In appendix [E](#tables){reference-type="ref"
     reference="tables"} it is possible to find the values used to draw
     these graphs, respectively in tables
     [4.1](#table:count){reference-type="ref"
@@ -555,9 +555,9 @@ fundamental to analyze the generality of technologies developed by firms
 in different industries. Thus @hall2004uncovering suggest computing the
 generality index based on the industry, by associating an technological
 classes with industrial sectors using a an industry-patent class
-concordance.[^9]
+concordance.[^39]
 
-[^9]: In figures [1.3](#fig:cpc_gen){reference-type="ref"
+[^39]: In figures [1.3](#fig:cpc_gen){reference-type="ref"
     reference="fig:cpc_gen"}, [1.4](#fig:tech_gen){reference-type="ref"
     reference="fig:tech_gen"}, [1.5](#fig:nace_gen){reference-type="ref"
     reference="fig:nace_gen"} and
@@ -574,7 +574,7 @@ In figure [1.3](#fig:cpc_gen){reference-type="ref"
 reference="fig:cpc_gen"} the generality index is computed using the CPC
 technology classes over time of both the AI-related patents and a
 control sample of patents filed the same year and with the same number
-of forward citations[^10]. It can be observed that, during the period
+of forward citations[^40]. It can be observed that, during the period
 took into consideration, AI-related patents have a higher generality.
 However, starting from 2008, they start to diverge, with the generality
 of AI-related patents increasing up to reach a maximum mean value of
@@ -589,7 +589,7 @@ technologies and previous findings related to the expansion of the
 fraction of IPC and CPC classification symbols (figure
 [1.2](#fig:tech_var){reference-type="ref" reference="fig:tech_var"}).
 
-[^10]: Details on the construction of the control sample are provided in
+[^40]: Details on the construction of the control sample are provided in
     appendix [B](#datagathering){reference-type="ref"
     reference="datagathering"}
 
@@ -627,9 +627,9 @@ forward citations. Since patents with only one forward citation were
 assigned $G_i = 0$ by default, with the increase of the number of such
 patents, it is normal to assist a reduction in generality. To compensate
 for this phenomenon, in the graphs and tables of this analysis patents
-with only one forward citation were removed.[^11].
+with only one forward citation were removed.[^41].
 
-[^11]: Along the lines of previous work by @hall2004uncovering
+[^41]: Along the lines of previous work by @hall2004uncovering
 
 The results of the generality index computations are coherent for all
 metrics, suggesting that there is a correlation between the generality
@@ -955,7 +955,7 @@ occurring.
 Using the AI-related patents retrieved, I analyzed the concentration of
 patents using applicants' names. Applicant names were subjected common
 preprocessing techniques to disambiguate patents formally filed under
-different names but that in the end belonged to the same entity [^12].
+different names but that in the end belonged to the same entity [^42].
 During the process of data cleansing, I took into consideration that up
 until 2011 in the United States only by natural persons [@usinvent],
 therefore many PCT patents filed at USPTO also indicated the inventors
@@ -965,7 +965,7 @@ I eliminated applicants marked as individuals in patents including a
 legal entity. This has led me to obtaining a total of $28317$ unique
 applicants.
 
-[^12]: This process is described in detail in appendix
+[^42]: This process is described in detail in appendix
     [C](#applt_dis){reference-type="ref"
     reference="applt_dis"}
 
@@ -974,9 +974,9 @@ it is possible to observe that the distribution is highly skewed in
 favor to applicants that have filed only one patent. Thus, in order to
 differentiate strong patentees from weak patentees, the sample was
 divided in three asymmetrical classes based on the number of filed
-patents per year: top 1%, 90%-99%, and lower 89% [^13].
+patents per year: top 1%, 90%-99%, and lower 89% [^43].
 
-[^13]: In table
+[^43]: In table
     [4.8](#table:applt_groups){reference-type="ref"
     reference="table:applt_groups"} it is possible to absolute number of
     applicants assigned to each class by year.
@@ -1019,7 +1019,7 @@ that may avoid slowdowns in the rate of innovation caused by the
 negative horizontal externality of innovation complementarities
 mentioned in section three. At the same time, under the lenses of
 competition policy the scenario becomes more worrying. In fact,
-differently from the past[^14], this push is coming from private
+differently from the past[^44], this push is coming from private
 entities that can arbitrarily stop providing the fruits of their
 knowledge at any given moment. As a consequence, many argue in favor of
 a greater push towards public financing of AI technologies, especially
@@ -1034,7 +1034,7 @@ absence of policies that favor the development of strong European-based
 private firms active in the AI field, the gap is only destined to
 increase.
 
-[^14]: Such as the invention and development of the internet, a project
+[^44]: Such as the invention and development of the internet, a project
     that involved the collaboration between the military and public
     research entities. See @Abbate1999InventingTI for reference.
 

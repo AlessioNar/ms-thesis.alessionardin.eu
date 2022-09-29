@@ -37,7 +37,7 @@ existence of IPRs would go well beyond the scope of this dissertation,
 thus I will focus on the three most common explanations: the natural
 rights argument, the desert argument, and the utilitarian argument,
 which has traditionally been the most influential in constructing a
-legal framework for IP [^1].
+legal framework for IP [^12.2].
 
 #### The natural rights argument
 
@@ -138,7 +138,7 @@ cost of providing the notion of a mathematical theorem to an additional
 individual. However, as pointed out by @greenhalgh2010innovation, while
 the use of knowledge from one actor does not prevent other actors from
 using it, its diffusion may exhaust the profits that can be obtained
-from it[^2]. While information in itself is non-rival, the value
+from it[^13]. While information in itself is non-rival, the value
 associated with it can be rivalrous.
 
 The other fundamental characteristic of public goods is that they are
@@ -349,7 +349,7 @@ out by @arrow1962economic, which framed the applicability of
 innovate. In an oligopolistic market, a firm is already making a profit,
 and innovation only offers a higher revenue. However, when compared to a
 second firm contemplating market entry, the incumbent's marginal
-gain[^3] is lower than the one of the potential entrant. This argument
+gain[^14] is lower than the one of the potential entrant. This argument
 leads to the conclusion that an oligopolistic system, in the absence of
 new entrants, is less conductive to innovation. However, as pointed out
 by @leveque2004economics, *\"this reasoning ignores competition between
@@ -471,7 +471,7 @@ monopoly rights for an invention that has already taken place
 
 ##### Inventive step
 
-A third criterion shall be respected: inventive step[^4]. According to
+A third criterion shall be respected: inventive step[^15]. According to
 Art. 56 of the European Patent Convention, *\"an invention shall be
 considered as involving an inventive step if, having regard to the state
 of the art, it is not obvious to a person skilled in the art.\"* Given
@@ -631,7 +631,7 @@ not determined by law but results from the combination of the number and
 genericity of novelty claims and the inventive step. Patent offices
 identify what an inventor has found or not based on the claims present
 in the patent application but the definitive scope is determined in
-court during a case of alleged infringement[^5].
+court during a case of alleged infringement[^16].
 
 According to economic theory, the scope of a patent can be divided into
 *lagging breadth* and *leading breadth*. Lagging breadth affects
@@ -650,7 +650,7 @@ competition. Conversely, leading breadth affects vertical competition,
 which is the length of the inventive step needed in downstream research
 in order not to infringe the patent. It generally arises in the context
 of cumulative innovation [@guellec2007economics], where an invention is
-needed for another one to happen [^6]. In a two-stages development
+needed for another one to happen [^17]. In a two-stages development
 scenario, where two different research entities contribute to innovation
 and the revenue is generated in the downstream sector, leading breadth
 determines how the profit be shared between them. *\"Granting too narrow
@@ -693,7 +693,7 @@ reducing the profitability of downstream research and therefore risking
 an under-provision in that sector.
 
 A second approach has been taken in the field of software. While
-computer programs *as such* are excluded from patenting[^7], it is still
+computer programs *as such* are excluded from patenting[^18], it is still
 possible to patent software applications which use a mathematical
 formula in a specific way for a particular purpose. This resulted in the
 incentivization of extremely narrow patents, which constitute prior art
@@ -1197,7 +1197,7 @@ limiting the number of API calls, the duration of the task and the
 amount of the processing power used. Another commonly used business
 model is typical of the platform economy, where developers may provide
 the opportunity to access to higher-quality, personalized AI systems in
-exchange for a periodic fee[^8]. AI system developers can potentially
+exchange for a periodic fee[^19]. AI system developers can potentially
 never fully disclose the AI model to the end-user, thus making their
 work profitable without the need to claim ownership on AI by-products.
 
@@ -1246,7 +1246,7 @@ secret, IPRs are of no use, since a mechanism of appropriability is
 already in place, thus making the introduction of IPRs detrimental to
 economic welfare. A typical example of cospecialized assets in AI
 technologies is characterized by algorithms and weights. While
-algorithms are often published in scientific papers, weights[^9] are
+algorithms are often published in scientific papers, weights[^20] are
 generally kept secret [@Hilty2020IntellectualPJ]. An AI system without
 correlating weights would be valueless for potential free riders.
 Moreover, imitation through reverse engineering is possible only to a
@@ -1267,7 +1267,7 @@ outputs is strictly correlated to the time it takes for them to become
 obsolete. In other words, when AI-based innovation and creation surpass
 a certain threshold, the utility of each AI output reduces, as effect of
 incremental innovation, a situation where investment could not be
-recouped even with the introduction of IPRs[^10]. A higher rate of
+recouped even with the introduction of IPRs[^21]. A higher rate of
 innovation reduces the temporal difference between dynamic efficiency
 and static efficiency, making IPRs detrimental to economic welfare. The
 rate of innovation depends on the specific economic sector of the AI
@@ -1279,7 +1279,7 @@ for AI by-products is merely speculative and it may be
 counterproductive, since it would increase the legal costs associated
 with innovation. Considering that current legislation already provides
 the possibility to protect AI-aided outputs by mentioning a human as
-inventor or author[^11], there is no need to create new IPRs.
+inventor or author[^22], there is no need to create new IPRs.
 
 ### Prospect Theory
 
@@ -1332,19 +1332,19 @@ in innovative behavior. The introduction of additional IPRs specific of
 AI technologies would only represent a burden to the innovative process,
 potentially hindering innovation.
 
-[^1]: For a detailed study on this topic, see @spence2007intellectual
+[^12.2]: For a detailed study on this topic, see @spence2007intellectual
     and @menell1999intellectual.
 
-[^2]: Imagine a method for anticipating the behavior of financial
+[^13]: Imagine a method for anticipating the behavior of financial
     markets
 
-[^3]: the monopoly profit after the invention minus the monopoly profit
+[^14]: the monopoly profit after the invention minus the monopoly profit
     before it
 
-[^4]: In the United States it is generally referred to as
+[^15]: In the United States it is generally referred to as
     non-obviousness
 
-[^5]: In jurisprudence, there are two mainstream approaches: the
+[^16]: In jurisprudence, there are two mainstream approaches: the
     doctrine of equivalents and the doctrine of literal interpretation.
     The doctrine of equivalents, extends protection to any product which
     *\"does the same work in substantially the same way to accomplish
@@ -1356,22 +1356,22 @@ potentially hindering innovation.
     where in addition to real findings, the inventor may have intuitions
     regarding further applications of his invention.
 
-[^6]: Such as innovations that improve the quality of a preexisting
+[^17]: Such as innovations that improve the quality of a preexisting
     product or process or the discovery of new applications of an
     already existing technology
 
-[^7]: They are considered mathematical processes and fall in the public
+[^18]: They are considered mathematical processes and fall in the public
     domain
 
-[^8]: Through the use of a technique called transfer learning
+[^19]: Through the use of a technique called transfer learning
 
-[^9]: Trainable parameters that are optimized during the learning
+[^20]: Trainable parameters that are optimized during the learning
     process.
 
-[^10]: Which would only increase the deadweight loss and reduce economic
+[^21]: Which would only increase the deadweight loss and reduce economic
     welfare.
 
-[^11]: Here it is important to underline that AI-produced inventions do
+[^22]: Here it is important to underline that AI-produced inventions do
     not exist, as it will be discussed in chapter
-    [\[chap:innovation\]](#chap:innovation){reference-type="ref"
+    [chap:innovation](#chap:innovation){reference-type="ref"
     reference="chap:innovation"}.

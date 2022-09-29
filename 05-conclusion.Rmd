@@ -3,7 +3,7 @@ Conclusion {#conclusion .unnumbered}
 
 Artificial Intelligence technologies are one of the critical elements of
 change in the short-medium term. The advent of a new GPT (which could
-very well be considered GMI[^1]) will deeply change the dynamics of the
+very well be considered GMI[^45]) will deeply change the dynamics of the
 economy, politics, society, and international relations. The
 multidimensional character of technology influences the power dynamics
 between those who will be able to exploit the altered scenario, and
@@ -187,7 +187,7 @@ is sustainable, rich, and fair. While regulation of what can or cannot
 be produced may be seen as a cost in the short term, if properly
 designed it may lead to enhanced social welfare in the medium-long term.
 
-[^1]: A technology widely applicable in a variety of fields, with strong
+[^45]: A technology widely applicable in a variety of fields, with strong
     innovation complementarities and that can potentially be used during
     the R&D process, shifting entire scientific paradigms and
     drastically increasing the innovation rate.

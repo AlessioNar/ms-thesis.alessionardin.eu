@@ -1,5 +1,6 @@
 bookdown::gitbook:
-  css: style.css
+  css: 
+    - style.css
   config:
     toolbar:
       position: fixed
@@ -34,7 +35,8 @@ bookdown::gitbook:
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
+    after: analytics.html
   latex_engine: xelatex
   citation_package: natbib
-  keep_tex: yes
+  keep_tex: no
 bookdown::epub_book: default

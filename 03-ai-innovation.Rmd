@@ -226,11 +226,11 @@ $$V_{a}'(T_{G}', T_{a}', X)$$
 Note that the social returns for innovation in this function do not take
 into consideration potential reductions in production costs caused by
 the technological improvements. Note that the function $V'_{a}$ has
-increasing differences in $(T'_{G}, T'_{a})$[^1], suggesting that there
+increasing differences in $(T'_{G}, T'_{a})$[^23], suggesting that there
 are social increasing returns if there is coordination in the
 investments in both the GPT and the application sectors.
 
-[^1]: Name $T'_{G} = g$ and $T'_{a} = a$, thus $V'_{a}(g,a,X)$. Suppose
+[^23]: Name $T'_{G} = g$ and $T'_{a} = a$, thus $V'_{a}(g,a,X)$. Suppose
     $g \leq g'$, and $a \leq a'$ for all $X$. Then
     $\Delta_{g,g'}V'_{a}(a) = V'_{a}(g',a,X) - V'_{a}(g,a,X)$, making
     the function $\Delta_{g,g'}V'_{a}$ non-decreasing for all
@@ -357,7 +357,7 @@ later paper [@Helpman1996DiffusionOG], they expanded the model to
 consider the fact that multiple application sectors are operating
 contemporaneously in the real world. They determined that, while the
 initial stages of the spread of the new GPT are characterized by
-intermittent growth[^2], after a "critical mass" of application sectors
+intermittent growth[^24], after a "critical mass" of application sectors
 have made the necessary complementary investments, we assist to a surge
 in growth, together with a rise in wages and profit. Their models show
 that there may be various factors affecting this diffusion process and
@@ -370,7 +370,7 @@ Moreover, it is essential to note that different adoption orders in the
 application sectors may trigger multiple second phases (those
 characterized by rising productivity).
 
-[^2]: Since the complementary investments are used only by a few early
+[^24]: Since the complementary investments are used only by a few early
     adopters
 
 ### Methods of Inventing
@@ -633,7 +633,7 @@ of recombinant innovation [@weitzman1998recombinant], where the
 successful combination of ideas originates new ideas, improvements in
 prediction technologies (such as AI) can result in fewer resources
 wasted during the research process. In any research effort, prediction
-[^3] is used to map all the possible combinations of ideas to prioritize
+[^25] is used to map all the possible combinations of ideas to prioritize
 those that are more likely to yield new knowledge. Assuming that inputs
 are the already existing ideas and data over past combinations, the
 prediction function provides as output the probability for each possible
@@ -644,7 +644,7 @@ the right path. Consequently, every improvement in prediction technology
 represents a potential source of increased productivity in the research
 output.
 
-[^3]: In its different forms, such as educated guesses, theoretical
+[^25]: In its different forms, such as educated guesses, theoretical
     models, statistical parametric modeling, or others
 
 Compared to other prediction technologies, such as parametric modeling,
@@ -708,9 +708,9 @@ promising tool for discovery, especially where the complexity of the
 phenomena makes it difficult for the researcher to adopt more
 traditional methods. However, even in these limited cases, the analysis
 they provide still needs to be subjected to experimental validation and
-thorough examination by human researchers.[^4]
+thorough examination by human researchers.[^26]
 
-[^4]: In appendix [\[ads\]](#ads){reference-type="ref" reference="ads"}
+[^26]: In appendix [\[ads\]](#ads){reference-type="ref" reference="ads"}
     is discussed the current debate on Autonomous Discovery Systems
 
 ## AI in the market
@@ -826,10 +826,10 @@ increasing the quality of existing products, and improving resource
 allocation, it is also used to provide optimal commercial strategies to
 sellers that can use Recurrent Neural Networks to maximize their
 profits. While a complete review of these mechanisms is outside of the
-scope of this dissertation[^5], I will briefly introduce how AI may
+scope of this dissertation[^27], I will briefly introduce how AI may
 impact the market dynamics through the use of dynamic pricing.
 
-[^5]: See @abrardi2019economics for a more complete review.
+[^27]: See @abrardi2019economics for a more complete review.
 
 #### Dynamic pricing
 
@@ -849,23 +849,23 @@ consumers' surplus.
 
 Moreover, for the first time in economic history, dynamic pricing
 provides an opportunity to systematically apply first-degree price
-discrimination[^6]. Through extreme personalization obtained by
+discrimination[^28]. Through extreme personalization obtained by
 gathering data on users' online behavior, platforms can often deduce the
 consumer's reservation price and differentiate the price
 [@Milgrom2018HowAI]. @Gautier2020AIAP presented some examples of such
-practices[^7], even if it seems that, for the moment, they are not the
+practices[^29], even if it seems that, for the moment, they are not the
 industry standard. They suggest that this may be attributed to different
-factors, such as technical barriers and consumers' perception[^8].
+factors, such as technical barriers and consumers' perception[^30].
 
-[^6]: First degree price discrimination occurs when prices at which
+[^28]: First degree price discrimination occurs when prices at which
     goods and services are sold are equal to consumers' reservation
     price
 
-[^7]: Such as in the case of Amazon's scandals regarding price
+[^29]: Such as in the case of Amazon's scandals regarding price
     discrimination over DVDs or mahjong tiles. See @cavallo2018more and
     @townley2017big for reference.
 
-[^8]: Since first-degree discrimination is widely considered an
+[^30]: Since first-degree discrimination is widely considered an
     exploitative practice, when aware of these mechanisms, consumers
     tend to behave strategically, either by limiting the amount of
     information they reveal or by creating multiple accounts and masking
