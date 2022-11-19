@@ -117,7 +117,7 @@ that the *"social increasing returns to scale (SIRS) arise across an
 entire cluster of technical change in the GPT and technical change in
 the AS (application sectors) and that GPTs* "may overcome diminished
 returns because innovation is inherently an increasing returns
-activity"\*. However, this virtuous cycle of economic growth is not
+activity"*. However, this virtuous cycle of economic growth is not
 exempt from obstacles and externalities, which will be later discussed.
 
 #### Some words on pervasivesness
@@ -394,7 +394,7 @@ are closer to innovations in research tools or innovation in processes.
 This seems to be more in line with the initial intuition of Griliches
 since the value of the invention of hybrid corn was not in the hybrid
 corn itself rather than in the invention of a *"widely applicable method
-for breeding many different new varieties"* \[@cockburn2018impact\].
+for breeding many different new varieties"* [@cockburn2018impact].
 @Hentschel2015APO analyzed how some scientific instrumentation shifts
 from the specific context in which it is developed, with a particular
 use, towards a more general use, mentioning the invention of optical
@@ -407,7 +407,7 @@ thought to be) and the empirical observation of real phenomena (what it
 is possible to experience), altering the preindustrial scientific
 community's scenario. *"much of the seventeenth-century scientific
 revolution was made possible by better instruments and tools"*
-\[@mokyr2018past], which, in turn, were the prerequisites for the
+[@mokyr2018past], which, in turn, were the prerequisites for the
 explosion of productivity of the first industrial revolution. Another
 famous example of IMI is the much-debated Oncomouse patent, whose
 applicants aimed to expand the patent scope to the method for
@@ -483,11 +483,11 @@ leading scholar to come up with a new technological category: General
 Method of Invention. *"A GMI is a (I)MI that is applicable across many
 domains. Similar to GPTs, development of the GMI and complementary
 developments in application domains are mutually reinforcing"*
-[@bianchini2020deep\]. Given that such technologies are extremely
+[@bianchini2020deep]. Given that such technologies are extremely
 scarce, there is not a shared terminology yet, and they have been called
 using different nomenclatures, such as General Method of Invention,
 General-Purpose Invention in the Method of Inventing or General
-Meta-technology \[@bianchini2020deep; @cockburn2018impact;
+Meta-technology [@bianchini2020deep; @cockburn2018impact;
 @agrawal2018finding]. For this dissertation, I retain that the term
 suggested by @bianchini2020deep is particularly descriptive, thus I will
 refer to this class as General Method of Invention (GMI).
@@ -710,7 +710,7 @@ traditional methods. However, even in these limited cases, the analysis
 they provide still needs to be subjected to experimental validation and
 thorough examination by human researchers.[^26]
 
-[^26]: In appendix [\[ads\]](#ads){reference-type="ref" reference="ads"}
+[^26]: In the appendix [Autonomous Discovery Systems](#ads){reference-type="ref" reference="ads"}
     is discussed the current debate on Autonomous Discovery Systems
 
 ## AI in the market

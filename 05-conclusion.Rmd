@@ -27,7 +27,7 @@ strictly linked to economic and political supremacy, blind competition
 is particularly problematic since there is the concrete risk that it
 would bring to the overseeing of keystone aspects of AI development,
 such as its ethical use. As it was presented in chapter
-[\[chap:ai\]](#chap:ai){reference-type="ref" reference="chap:ai"},
+[1](#chap:ai){reference-type="ref" reference="chap:ai"},
 although AI systems represents a fundamental improvement in prediction
 technologies, they cannot be considered intelligent in the same way
 humans are, and they are marked by flaws and dangers that are very
@@ -38,7 +38,7 @@ prediction cost, the value of judgment increases, especially in complex
 situations, where the negative consequences of AI mistakes increase, and
 human intervention is needed both for security and monitoring purposes.
 
-In chapter [\[chap:ip\]](#chap:ip){reference-type="ref"
+In chapter [2](#chap:ip){reference-type="ref"
 reference="chap:ip"}, some of the main normative constraints that shape
 the development of new technologies were presented: Intellectual
 Property Rights. The first part evaluated the main economic arguments
@@ -56,13 +56,13 @@ are needed to promote innovation in AI, and since there is a strong
 tendency towards self-regulation using patentleft or copyleft models,
 this calls towards a reduction in IPRs, rather than the opposite.
 
-Chapter [\[chap:innovation\]](#chap:innovation){reference-type="ref"
+Chapter [3](#chap:innovation){reference-type="ref"
 reference="chap:innovation"} focused on the effects of AI technologies
 on innovation and the market. The first part centered on some technology
 categorization, namely General Purpose Technologies, Inventions of a
 Method of Inventing, and General Methods of Invention. Particular
 attention was given to GPTs, since they represent the focus of chapter
-[\[chap:analysis\]](#chap:analysis){reference-type="ref"
+[4](#chap:analysis){reference-type="ref"
 reference="chap:analysis"} and there is a rich literature on their
 effects on the economy. A crucial point regards the phenomenon of
 innovation complementarities, which describes why GPTs represent a
@@ -115,11 +115,10 @@ IPRs, these sets of norms aim to improve competition and consumer
 protection, possibly minimizing the negative consequences of a
 widespread introduction of AI technologies.
 
-Finally, chapter
-[\[chap:analysis\]](#chap:analysis){reference-type="ref"
+Finally, chapter [4](#chap:analysis){reference-type="ref"
 reference="chap:analysis"} objective's was to provide quantitative
 evidence to the claims of chapter
-[\[chap:innovation\]](#chap:innovation){reference-type="ref"
+[3](#chap:innovation){reference-type="ref"
 reference="chap:innovation"}: whether AI is a General Purpose
 technology, and whether we are assisting to a market concentration
 process of the AI market. The data used to perform the analysis was
@@ -146,7 +145,7 @@ professional figures capable of building, managing, or operating AI
 systems will be needed, creating a mismatch in the labor market. If
 policymakers will not draft effective redistribution policies, there is
 a substantial risk of deepening existing inequalities between social
-groups, leading to unrest and discontent among the \"losers\" of the AI
+groups, leading to unrest and discontent among the *"losers"* of the AI
 revolution. @Acosta2019InequalityMP studied the relationship between
 income inequality and political polarization, identifying how economic
 factors have a deep impact on voting behavior. In particular, they

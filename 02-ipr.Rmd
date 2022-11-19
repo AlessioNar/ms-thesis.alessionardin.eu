@@ -24,8 +24,8 @@ Foundations of Intellectual Property
 ------------------------------------
 
 @spence2007intellectual defined intellectual property rights as a
-*\"right that can be treated as property to control particular uses of a
-specified type of intangible asset\"*, suggesting IPRs protection covers
+*"right that can be treated as property to control particular uses of a
+specified type of intangible asset"*, suggesting IPRs protection covers
 only specific kinds and uses of intangible assets. In other words, the
 property right does not directly involve the intangible asset but rather
 the right to exclude others to make specific uses of it.
@@ -978,12 +978,12 @@ ML-powered AI.
 Potentially, databases could be covered by copyright, under the
 definition of literary work and in compliance with the Berne Convention.
 Additionally, article 5 of the WIPO Copyright Treaty (1996), states that
-*\"compilations of data or other material \[...\] which by reason of the
+*"compilations of data or other material [...] which by reason of the
 selection or arrangement of their contents constitute intellectual
-creations, are protected as such. \[...\] This protection does not
+creations, are protected as such. [...] This protection does not
 extend to the data or the material itself and without prejudice to any
 copyright subsisting in the data or material contained in the
-compilation\"*. However, copyright protection requires a creative effort
+compilation"*. However, copyright protection requires a creative effort
 and originality, and it is conceptually difficult to stretch these
 elements to databases. This opinion was first expressed with the
 sentence of the US Supreme Court in the case Feist v. Rural Telephone
@@ -1023,11 +1023,11 @@ acceptance of the EU model of database protection.
 
 #### The European Directive on databases
 
-Article 1(2) defines a database as *\"a collection of works, data or
+Article 1(2) defines a database as *"a collection of works, data or
 other independent materials arranged in a systematic or methodical way
-and capable of being accessed by electronic or other means.\"* The
-directive excludes *\"computer programs used in the manufacture or
-operation of databases which can be accessed by electronic means.\"*
+and capable of being accessed by electronic or other means."* The
+directive excludes *"computer programs used in the manufacture or
+operation of databases which can be accessed by electronic means."*
 
 In Art.3(1), the Directive distinguishes two different scenarios for a
 database. When the database already enjoys copyright protection, since
@@ -1041,19 +1041,19 @@ normal exploitation of the database. When a database does not enjoy
 copyright protection, it falls within the scope of the sui-generis
 right, that is the novel element of the European Directive, conditioned
 to the ability of the *compiler* of demonstrating that there has been a
-*\"qualitatively and/or quantitatively substantial investment in either
+*"qualitatively and/or quantitatively substantial investment in either
 the obtaining, verification or presentation of the content to prevent
 extraction and/or re-utilization of the whole or of a substantial part,
 evaluated qualitatively and/or quantitatively, of the contents of that
-database.\"*
+database."*
 
 Extraction and re-utilization are precisely defined in the Directive.
-The former is defined as *\"the permanent or temporary transfer of all
+The former is defined as *"the permanent or temporary transfer of all
 or a substantial part of the contents of a database to another medium by
-any means or in any form,\"* while the latter is *\"any form of making
+any means or in any form,"* while the latter is *"any form of making
 available to the public all or a substantial part of the contents of a
 database by the distribution of copies, by renting, or by other forms of
-transmission, including on-line.\"* This rule grants protection to the
+transmission, including on-line."* This rule grants protection to the
 producer of a database, irrespective of the database's eligibility for
 copyright or other protections. However, actions concerning the
 non-substantial part of a database are non-infringing, and the
@@ -1061,28 +1061,10 @@ sui-generis right is limited by first-sale exhaustion. Public lending is
 expressly excluded from the scope of protection. The national law of
 application determines additional exceptions.
 
-The protection accorded through the sui-generis right is granted for
-fifteen years, starting from the completion of the database. It is
-possible to renew the term of protection for another fifteen years if
-the database has been subjected to a substantial change that required a
-significant new investment. However, this creates issues concerning the
-incentive provided to database producers, since renewal creates an
-incentive to update the database even when there is no real need with
-the objective of extending protection [@koboldt1996eu]. Moreover, in the
-final draft of the Directive, the compulsory licensing for sole source
-databases originally proposed by the European Commission was deleted.
-Such a license would have made it possible in those instances where the
-stored information could not at all or not without great practical or
-financial difficulties be created or gathered independently
-[@grosheide2002database]. From a purely economic perspective, however,
-the absence of a compulsory licensing scheme equals to granting an
-indefinitely long monopoly. Data can be kept reserved but used within
-the firm, providing a comparative advantage. Databases are essential for
-Artificial Intelligence systems, since machine learning, the
-game-changer in the field of AI, needs organized and ready-to-use
-data-sets are to build effective predictive models. As a consequence,
-inefficiencies in economic welfare are created, increasing the
-deadweight loss caused by IPRs in the data economy.
+The protection accorded through the sui-generis right is granted for fifteen years, starting from the completion of the database. It is possible to renew the term of protection for another fifteen years if the database has been subjected to a substantial change that required a significant new investment. However, this creates issues concerning the
+incentive provided to database producers, since renewal creates an incentive to update the database even when there is no real need with the objective of extending protection [@koboldt1996eu]. Moreover, in the final draft of the Directive, the compulsory licensing for sole source databases originally proposed by the European Commission was deleted.
+Such a license would have made it possible in those instances where the stored information could not at all or not without great practical or financial difficulties be created or gathered independently [@grosheide2002database]. From a purely economic perspective, however, the absence of a compulsory licensing scheme equals to granting an indefinitely long monopoly. Data can be kept reserved but used within the firm, providing a comparative advantage. Databases are essential for Artificial Intelligence systems, since machine learning, the
+game-changer in the field of AI, needs organized and ready-to-use data-sets to build effective predictive models. As a consequence, inefficiencies in economic welfare are created, increasing the deadweight loss caused by IPRs in the data economy.
 
 AI and Intellectual Property Rights {#ai_ip}
 -----------------------------------
@@ -1292,13 +1274,13 @@ over-investment in innovation. In the context of AI technologies,
 over-investment may seem relevant, but it would also interfere with the
 ability of other innovation to conduct parallel R&D efforts, thus
 unnecessarily blocking the way of other innovators. This may
-subsequently lead to *\"races to create or invent, which may lead to
+subsequently lead to *"races to create or invent, which may lead to
 wasteful duplication of research effort. Furthermore, instead of
 enabling the original inventor to coordinate efficiently the
 exploitation of the technology, a quasi-monopoly may lead to satisfying
 behaviour and thus to an inefficiently narrow focus on improvements
 related to the primary AI creator's or inventor's principal line of
-business\"* [@Hilty2020IntellectualPJ]. The introduction of IPRs may
+business"* [@Hilty2020IntellectualPJ]. The introduction of IPRs may
 reduce the incentive to proceed with cumulative innovations and favor
 rent-seeking behavior. As we will see in chapter
 three, this is particularly relevant, since AI
@@ -1347,8 +1329,8 @@ potentially hindering innovation.
 [^16]: In jurisprudence, there are two mainstream approaches: the
     doctrine of equivalents and the doctrine of literal interpretation.
     The doctrine of equivalents, extends protection to any product which
-    *\"does the same work in substantially the same way to accomplish
-    substantially the same result\"* [@Wawrzyniak1990ProvingPI], while
+    *"does the same work in substantially the same way to accomplish
+    substantially the same result"* [@Wawrzyniak1990ProvingPI], while
     the doctrine of literal interpretation restricts the protection only
     to what is explicitly claimed in the patent document
     [@meurer2004invention; @lee2010patent]. Both these approaches might

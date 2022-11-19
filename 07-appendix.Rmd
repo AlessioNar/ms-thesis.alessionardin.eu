@@ -18,24 +18,24 @@ antenna, the Robot Scientist project, and DABUS.
 
 The **Robot Scientist project** built two Automated Discovery Systems
 (ADS), ADAM and EVE, which automated the entire research pipeline. ADAM
-is an ADS designed to *\"carry out microbial growth experiments to study
+is an ADS designed to *"carry out microbial growth experiments to study
 functional genomics in the yeast Saccharomyces cervisiae, specifically
-to identify the genes encoding 'locally orphan enzymes'\"*
+to identify the genes encoding 'locally orphan enzymes'"*
 [@sparkes2010towards], while Eve is designed to find new drugs to cure
 neglected tropical diseases.
 
 ![The workflow of the ADAM robot scientist
-[@sparkes2010towards]](image 3.1){#fig:robotscientist
+[@sparkes2010towards]](images/appendix/image 3.1.png){#fig:robotscientist
 width="\\textwidth"}
 
-These systems use a *\"combination of computational methods, automated
+These systems use a *"combination of computational methods, automated
 instruments, closed-loop learning, advanced laboratory robotic systems
-and formal logical expression of information\"* [@sparkes2010towards] to
+and formal logical expression of information"* [@sparkes2010towards] to
 gain new knowledge. By tasking the AI ayarwm to conduct cycles of
 experimentation on a robotic laboratory, the robot scientist
-*\"automatically generates hypothesis from the available background
+*"automatically generates hypothesis from the available background
 knowledge and models, design physical experiments to test them, carries
-out experiments, and then analyzes and interprets the results\"*
+out experiments, and then analyzes and interprets the results"*
 [@sparkes2010towards]. This approach has several advantages, such as
 capturing every detail of the scientific discovery process: goals,
 hypotheses, results, and conclusions, while gathering useful meta-data
@@ -52,7 +52,7 @@ challenging to consider it fundamentally different from any other
 research tool, thus inserting its by-products in the category of
 AI-aided inventions.
 
-Another approach to *\"automate invention\"* is through the use of
+Another approach to *"automate invention"* is through the use of
 **genetic programming**. Genetic programming is an AI technique where
 computer programs are encoded as a set of genes that are then modified
 using an evolutionary algorithm. NASA used this technique in 2004 to
@@ -80,64 +80,64 @@ Differently from other ADSs, the detail information regarding the
 functioning of DABUS is kept secret, and Thaler himself provided a vague
 explanation, even in his patent application.
 
-![DABUS, [@dabus]](image 3.2){#fig:dabus1 width="10cm"}
+![DABUS, [@dabus]](images/appendix/image 3.2.jpg){#fig:dabus1 width="10cm"}
 
-According to what it is claimed in the project website, *\"the DABUS
+According to what it is claimed in the project website, *"the DABUS
 architecture consists of a multitude of neural nets, with many ideas
-forming in parallel across multiple computers\"* [@dabus]. The process
+forming in parallel across multiple computers"* [@dabus]. The process
 of idea creation is formed by a series of disconnected neural nets that
-contain different interrelated *\"memories\"* of a linguistic, visual,
+contain different interrelated *"memories"* of a linguistic, visual,
 or auditory nature. When DABUS is activated, nets combine and detach,
 following a controlled chaos algorithm that operates both within and
-between them. In this way, *\"cumulative cycles of learning and
-unlearning\"* making a fraction of these nets *\"interconnect into
-structures representing complex concepts\"* [@dabus]. These structures
+between them. In this way, *"cumulative cycles of learning and
+unlearning"* making a fraction of these nets *"interconnect into
+structures representing complex concepts"* [@dabus]. These structures
 then tend to connect continuously with others that allegedly represent
-their *\"consequences'* in cycles of creation and disruption of
+their *"consequences'* in cycles of creation and disruption of
 connections.
 
-![Representation of DABUS \"thought process\"
-[@dabus]](image 3.3){#fig:dabus2 width="\\textwidth"}
+![Representation of DABUS "thought process"
+[@dabus]](images/appendix/image 3.3.jpg){#fig:dabus2 width="\\textwidth"}
 
-At the same time, DABUS applies what they define *\"novelty filter\"* or
-*\"anomaly filter, \[...\] adaptive neural nets that absorb the status
+At the same time, DABUS applies what they define *"novelty filter"* or
+*"anomaly filter, [...] adaptive neural nets that absorb the status
 quo within any environment and emphasize any departures from such
-normalcy,\"* to detect and isolate freshly forming concepts [@dabus].
+normalcy,"* to detect and isolate freshly forming concepts [@dabus].
 These filters allegedly serve to identify critical neural nets (also
-called *\"hot buttons\"*) that are considered essential for achieving
+called *"hot buttons"*) that are considered essential for achieving
 one or more desirable outcomes, thus triggering the release of signals
 that reinforce or destroy a concept chain. After a certain
-threshold,*\"such ideas are converted into long term memories,
+threshold,*"such ideas are converted into long term memories,
 eventually allowing DABUS to be interrogated for cumulative inventions
-and discoveries\"* [@dabus].
+and discoveries"* [@dabus].
 
-While at first sight, DABUS may appear as an *\"invention machine,\"* as
+While at first sight, DABUS may appear as an *"invention machine,"* as
 claimed by its creator, when what it has been disclosed so far is
 analyzed in detail, several observations arise. First, it seems like the
 basic concepts draw a lot from genetic programming, where evolutionary
-algorithms detect anomalies and suppress *\"unfit\"* combinations.
+algorithms detect anomalies and suppress *"unfit"* combinations.
 However, rather than the criteria being the degree of adherence to
 specific parameters, it seems that the benchmark consists of eluding
 prior art and provide some degree of novelty. In this sense, DABUS
-should not be considered as an actual *\"invention machine\"* but
-instead an *\"inventing-around machine,\"* that looks the right
+should not be considered as an actual *"invention machine"* but
+instead an *"inventing-around machine,"* that looks the right
 combinations to elude the breadth of already existing patents without
 infringing other patents. However, DABUS operations are limited to
 automating the process of identifying novelty, and it cannot be said
-that it understands the *\"ideas\"* that allegedly produces. Recalling
+that it understands the *"ideas"* that allegedly produces. Recalling
 the Chinese Room test proposed by @Searle1990MindsBA, it would seem that
 there is no difference between DABUS and other AIs, such as machine
 translation models. As even Thaler affirmed, the outcome of the
 allegedly generated inventions largely depends on the provided data:
-*\"DABUS has autonomously generated two fractal-related inventions, but
+*"DABUS has autonomously generated two fractal-related inventions, but
 that's because this AI-child was raised in a 'household' wherein fractal
-theory was often discussed\"* [@dabus]. As a result, is it correct to
+theory was often discussed"* [@dabus]. As a result, is it correct to
 affirm that DABUS generated these inventions? Should not instead be
 considered an instrument that, based on a selection of ideas chosen by
 an operator, produces something new by randomly trying out combinations?
 When framed like this, the control over what is being invented shifts
 from DABUS to whoever selects the initial data. What I suggest is
-instead that DABUS should not be considered an *\"artificial inventor\"*
+instead that DABUS should not be considered an *"artificial inventor"*
 at all (as claimed by Thaler), but rather an extremely sophisticated
 tool able to enhance human capabilities. So, even if Thaler's
 propositions over DABUS capabilities respect reality, an operator still
@@ -170,7 +170,7 @@ involves two steps:
 
 When we apply this procedure to AI technologies, the first step is
 particularly problematic. As it was already mentioned in chapter
-[\[chap:ai\]](#chap:ai){reference-type="ref" reference="chap:ai"}, the
+[1](#chap:ai){reference-type="ref" reference="chap:ai"}, the
 definition of AI has changed many times in the past, and it is
 particularly complex for the researcher to codify this definition in a
 structured query. For the purpose of this dissertation, I applied the
